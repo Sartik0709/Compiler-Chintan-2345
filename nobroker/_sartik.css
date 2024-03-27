@@ -1,0 +1,28 @@
+body{
+     margin: 0px;
+     padding: 0px;
+}
+#nav{
+    padding-right: 20px;
+    padding-left: 20px;
+     width:auto;
+     height: 10vh;
+     border: 1px solid;
+     display:  flex;
+     justify-content: space-between;
+     align-items: center;
+}
+#navr{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+.height{
+     padding-top: 3px;
+     margin-top: auto;
+     margin-bottom: auto;
+     padding-left: 10px;
+     padding-right: 10px;
+     height: 28px;
+     background-color: green;
+}
