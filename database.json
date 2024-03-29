@@ -1,0 +1,169 @@
+{
+  "card_Data":[
+    {
+      "name": "Lisa Das",
+      "rating": 5,
+      "review": "It's a nice experience",
+      "description": "It was a nice experience with Nobroker. They helped me to find a new home to stay as it was difficult for me, as an individual, to find a home with friendly roommates. Thankfully Nobroker helped me to get one with all kinds of facilities.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "John Smith",
+      "rating": 4,
+      "review": "Great service!",
+      "description": "I had a great experience with Nobroker. Their service was exceptional, and they helped me find the perfect apartment in no time.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Emily Johnson",
+      "rating": 5,
+      "review": "Highly recommend!",
+      "description": "Nobroker made my apartment hunting experience so much easier. The staff was helpful and professional, and I found exactly what I was looking for.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Michael Brown",
+      "rating": 3,
+      "review": "Decent service",
+      "description": "Overall, my experience with Nobroker was decent. They provided some good options, but it took a bit longer than expected to find the right place.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Sophia Wilson",
+      "rating": 4,
+      "review": "Satisfied customer",
+      "description": "I'm a satisfied customer of Nobroker. They helped me find a comfortable and affordable place to live in a convenient location.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "David Martinez",
+      "rating": 5,
+      "review": "Excellent service!",
+      "description": "I couldn't be happier with Nobroker's service. They went above and beyond to ensure I found the perfect apartment. Highly recommended!",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Emma White",
+      "rating": 4,
+      "review": "Good experience overall",
+      "description": "My experience with Nobroker was positive. They provided me with several good options, and I eventually found a place that suited my needs.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Daniel Lee",
+      "rating": 3,
+      "review": "Could be better",
+      "description": "While Nobroker did help me find a place, I think there's room for improvement in terms of communication and efficiency.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Olivia Garcia",
+      "rating": 5,
+      "review": "Fantastic experience!",
+      "description": "Nobroker made my apartment search stress-free. They understood my requirements perfectly and found me an amazing place to live.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    }
+  ],
+  "cities": [
+      {
+        "name": "Bangalore",
+        "categories": [
+          {
+            "category": "Flats for Sale",
+            "locations": [
+              "Koramangala",
+              "Marathahalli",
+              "HSR Layout",
+              "Whitefield",
+              "Indira Nagar",
+              "Bellandur",
+              "Chandra Layout",
+              "J. P. Nagar",
+              "BTM Layout",
+              "Jayanagar",
+              "Below 45 Lakhs",
+              "Below 50 Lakhs",
+              "Below 60 Lakhs",
+              "Below 70 Lakhs",
+              "Below 80 Lakhs",
+              "Below 90 Lakhs"
+            ]
+          },
+          {
+            "category": "Properties for Sale",
+            "locations": [
+              "Koramangala",
+              "Yelahanka"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mumbai",
+        "categories": [
+          {
+            "category": "Flats for Sale",
+            "locations": [
+              "Andheri West",
+              "Andheri East",
+              "Malad West",
+              "Navi Mumbai",
+              "Powai",
+              "Thane West",
+              "Mira Road East",
+              "Kharghar",
+              "Kandivali East",
+              "Bandra West",
+              "Below 60 Lakhs",
+              "Below 70 Lakhs",
+              "Below 80 Lakhs",
+              "Below 90 Lakhs",
+              "Below 1 Cr",
+              "Below 2 Cr"
+            ]
+          },
+          {
+            "category": "Properties for Sale",
+            "locations": [
+              "Kharghar",
+              "Bandra"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chennai",
+        "categories": [
+          {
+            "category": "Flats for Sale",
+            "locations": [
+              "Velachery",
+              "Thiruvanmiyur",
+              "Madipakkam",
+              "Thoraipakkam",
+              "Sholinganallur",
+              "Medavakkam",
+              "Mylapore",
+              "Adyar",
+              "T Nagar",
+              "Perungudi",
+              "Below 45 Lakhs",
+              "Below 50 Lakhs",
+              "Below 60 Lakhs",
+              "Below 70 Lakhs",
+              "Below 80 Lakhs",
+              "Below 90 Lakhs"
+            ]
+          },
+          {
+            "category": "Properties for Sale",
+            "locations": [
+              "Shalimar Bagh",
+              "Velachery"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
