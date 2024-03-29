@@ -1,0 +1,156 @@
+.container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 600px;
+    background-color: rgb(254,240,218);
+    width: 280px;
+    padding: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  
+  .divider {
+    margin: 0;
+  }
+  h1{
+    text-align: center;
+    color: rgb(120,118,127);
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    
+  }
+  #buy{
+    padding: 15px;
+    border: 1px solid;
+    color: rgb(120,118,127);
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+  }
+  #rent{
+    padding: 15px;
+    border: 1px solid;
+    color: rgb(120,118,127);
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+  }
+  #commercial{
+    padding: 15px;
+    border: 1px solid;
+    color: rgb(120,118,127);
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+  }
+
+  .search-section{
+    position: relative;
+    left: 400px;
+  }
+  #city-select{
+     padding: 10px;
+     color:rgb(120,118,127) ;
+  }
+  #site-search{
+    padding: 10px;
+    width: 500px;
+  }
+  #btn1{
+    position: relative;
+    left: -3px;
+    padding: 11px;
+    background-color: rgb(227,50,74);
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+  }
+  #btn1:hover{
+    background-color: red;
+  }
+  .check-boxsection{
+    position: relative;
+    left: 400px;
+    padding: 10px;
+    border: 1px solid;
+    width: 750px;
+  }
+  #BHK{
+    padding: 8px;
+    color: rgb(120,118,127);
+ }
+ #property{
+    padding: 8px;
+    color: rgb(120,118,127);
+ }
+ .main{
+    margin-top: 20px;
+ }
+ .owner-section h4{
+     text-align: center;
+     margin-top: 60px;
+ }
+#btn3{
+    padding: 12px;
+    background-color: rgb(0,149,135);
+    color: white;
+    border-radius: 4px;
+    position: relative;
+    left: 670px;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+}
+#btn3:hover{
+    background-color: rgb(2, 67, 2);
+}
+.eligible{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(56,77,108);
+    margin-top: 25px;
+}
+.eligible p{
+    color: white;
+    font-weight: 100;
+}
+#btn4{
+     background-color: white;
+    color: black;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 15px;
+    cursor: pointer;
+}
+#broker{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+#home{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.active {
+  color: red;
+  text-decoration: underline;
+}
