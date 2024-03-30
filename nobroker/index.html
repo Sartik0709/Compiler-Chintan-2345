@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <style>
         body{
             margin: 0;
@@ -70,21 +72,25 @@
             width: 100%;
         }
 
-        .nav_sec2 {
+       
+
+        .nav_m1 {
             width: 100%;
-            height: 20vh;
-            flex-direction: row;
+            /* height: 20vh; */
+            /* border: 2px solid; */
+            /* display: grid;
+            grid-area: "a1 a2"; */
+            display: flex;
+            flex-wrap: wrap;
+                        
+            
+            
+        
+            
             background-color: #EDEDED;
             margin-top: -7px;
             margin-bottom: -7px;
             padding-top: 33px;
-        }
-
-        .nav_m1 {
-            width: 100%;
-            height: 20vh;
-            /* border: 2px solid; */
-            display: flex;
 
 
 
@@ -93,29 +99,48 @@
         .e1 {
             border-right: 0.5px solid #464646;
             width: 50%;
-            height: 15vh;
+            /* height: 15vh; */
+            text-align: center;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+
+            display: flex; 
+            margin-bottom: 25px;
+           margin-top: -10px;
+             
             /* margin-top: 20px; */
+        }
+        .e2{
+            text-align: center;
+            width: 40%;
+            /* height: 15vh; */
+
+            text-align: center;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           margin-bottom: 25px;
+           margin-top: -10px;
+
+            display: flex; 
+             
+           
         }
 
         .f {
             color: #464646;
-            text-align: center;
+            /* text-align: center; */
             margin-top: -10px;
 
         }
 
-        .c {
-            margin-left: 225px;
-        }
+        
         .navy_button{
             background-color: #464646;
             /* color: #E8E8E8; */
             height: 30px;width: 100px;
             border-radius: 4px;
-            margin-left: 270px;
-        
-            
-    
 
         }
         .z{
@@ -124,7 +149,7 @@
             
         }
         .navya_foot {
-            height: 12vh;
+            /* height: 12vh; */
             display: flex;
             justify-content: center;
             gap:25px;
@@ -132,7 +157,7 @@
             width: 70%;
             flex-wrap: wrap;
         
-            margin-left:200px ;
+            margin-left:100px ;
 
         }
         .navya_foot a{
@@ -172,16 +197,109 @@
             color: #464646;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
+        /* carousel */
+       
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+      background-color: #334A5C;
+
+    }
+
+
+    .card {
+
+
+      width: 26%;
+      padding: 20px;
+      text-align: left;
+      
+      font-family: Arial, sans-serif;
+      background-color: white;
+
+    }
+
+    .rating {
+      color: blue;
+      
+      font-size: 16px;
+      
+    }
+
+    .name {
+      font-size: 18px;
+      
+      font-size: 16px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    .review {
+      font-style: italic;
+      font-weight: 700;
+      margin-top: 10px;
+       color: #464646;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .description {
+      margin-top: 10px;
+      color: #464646;
+      font-size: 14px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .image {
+      width: 40px;
+      
+      height: 40px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      float: left;
+      margin-right: 10px;
+   
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    #prevBtn,
+    #nextBtn {
+      position: absolute;
+      top: 50%;
+      background-color: white;
+      transform: translateY(-50%);
+     
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    #prevBtn {
+      left: 10px;
+    }
+
+    #nextBtn {
+      right: 10px;
+    }
+    .card-container0{
+      position: relative;
+    }
         @media (min-width:750px){
-             .nav_sec2{
-                flex-direction: row
+             .e1{
+                flex-direction: column;
+                
              }
              .nav_con{
                 flex-direction: row;
 
              }
             
+             
         }
+      
 
        
     </style>
@@ -255,11 +373,11 @@
     </div>
 
     <hr style="margin-top: 45px;">
-    <div class="nav_sec2">
+   
         <div class="nav_m1">
             <div class="e1">
                 <h3
-                    style="text-align: center;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: #464646;margin-top: -2px;">
+                    style="text-align: center;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: #464646;">
                     Find Property
                 </h3>
                 <p class="f">Select from thousands of options, without brokerage.
@@ -268,7 +386,7 @@
             </div>
             <div class="e2">
                 <h3
-                    style="margin-left: 250px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: #464646;margin-top: -2px;">
+                    style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: #464646;">
                     List Your Property
                 </h3>
                 <p class="f c">For Free. Without any brokerage.
@@ -276,9 +394,9 @@
                 <button class="navy_button"><a href="" class="z">Free Posting</a></button>
             </div>
 
-        </div>
+       
     </div>
-    <hr>
+    <hr style="padding-top: 25px;">
     <div class="navya_foot">
       
         <a href="">About Us</a>
@@ -288,7 +406,7 @@
         </a>
         
     </div>
-    <hr>
+    <hr style="margin-top: 25px;">
     <div class="foot_img">
         <img src="https://assets.nobroker.in/nb-new/public/Common/android_download.svg" alt="">
         <img src="https://assets.nobroker.in/nb-new/public/Common/IOS_download.svg" alt="">
@@ -304,6 +422,19 @@
     </div>
     <p class="bottom">© 2013-23 NoBroker Technologies Solution Pvt. Ltd.
     </p>
+    <!-- carousel -->
+    
+  <div class="card-container0">
+    <div class="card-container"></div>
+    <div class="buttons">
+      <button id="prevBtn" onclick="prevSlide()"><span class="material-symbols-outlined">
+          arrow_left_alt
+        </span></button>
+      <button id="nextBtn" onclick="nextSlide()"><span class="material-symbols-outlined">
+          arrow_right_alt
+        </span></button>
+    </div>
+  </div>
 
 
     <script src="main.js"></script>
