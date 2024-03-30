@@ -1,5 +1,10 @@
 {
-
+   "menu":[
+    {
+      "id":1,
+      "data":"Post your Property"
+    }
+   ],
   "user_sartik":[
     {
       "username" :"sartik",

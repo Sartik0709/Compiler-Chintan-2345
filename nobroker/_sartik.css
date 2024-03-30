@@ -29,6 +29,9 @@ body{
    
 
 }
+#menu{
+     background-color: white;
+}
 #navr{
    display: flex;
    flex-wrap: wrap;
@@ -38,6 +41,7 @@ body{
    width: 45vw;
 }
 .height{
+    width:auto;
     padding-top: 3px;
     margin-top: auto;
     margin-bottom: auto;
@@ -83,4 +87,55 @@ body{
 }
 .hh{
     border: 2px solid;
+}
+#menu1{
+    position: fixed;
+    top: 59px;
+    right: 0px;
+    border: 1px solid green ;
+    width: 20%;
+    height:100%;
+     padding-left: 2px;
+     padding-right: 2px;
+     z-index: 2;
+      background-color: white;
+
+}
+#menu1>p{
+     margin-top: 5px;
+
+}
+#chat{
+     height: 10%;
+     width: 10%;
+      border-radius: 999rem;
+      border: 2px solid;
+      position: fixed;
+      right: 50px;
+      bottom: 50px;
+       background-color: rgb(59, 55, 55);
+       z-index: 1;
+     text-align: center;
+}
+#chat>p{ 
+     margin-top: 15%;
+     margin-left: auto;
+     margin-right: auto;
+     font-size:x-large;
+     color: white;
+     font-weight:bold;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 200px;
+    background-color: lightblue;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+a{
+    text-decoration: none;
 }
