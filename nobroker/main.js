@@ -44,55 +44,56 @@ async function fetchData(url) {
     try {
         let res = await fetch(`${url}`);
         let data = await res.json();
-        console.log(data);
+        // console.log(data);
 
         data.forEach(city => {
 
-            console.log(city.name);
+            // console.log(city.name);
 
             const div = document.createElement('div');
             const ul = document.createElement('ul');
             // Iterate over categories
             city.categories.forEach(category => {
-                
+
                 //  console.log(category);
                 for (let prop in category) {
                     switch (prop) {
                         case 'category1':
+
                             const h4_L = document.createElement('h4');
-                            h4_L.textContent =`Flats for Sale in ${city.name}`;
+                            h4_L.textContent = `Flats for Sale in ${city.name}`;
                             ul.append(h4_L);
                             let r = `${category[prop]} ${city.name}`;
-                            // console.log(r);
+                             console.log(r);
                             category.locations.forEach(location => {
                                 const li = document.createElement('li');
-                                li.textContent = location;
+                                li.textContent = `Flats for Sale in ${location}`;
                                 ul.appendChild(li);
                                 div.append(ul);
-
-                                console.log(location); // Print each location
+                                //  console.log(location); // Print each location
                             });
 
                             break;
                         case 'category2':
                             const h4_P = document.createElement('h4');
-                            h4_P.textContent =`Property for Sale in ${city.name}`;
+                            h4_P.textContent = `Property for Sale in ${city.name}`;
                             ul.append(h4_P);
                             let t = `${category[prop]} ${city.name}`;
                             // console.log(t);
                             category.locations.forEach(location => {
                                 const li = document.createElement('li');
-                                li.textContent = location;
+                                li.textContent = `Property for Sale in ${location}`;
+
                                 ul.appendChild(li);
                                 div.append(ul);
 
-                                console.log(location); // Print each location
+                                // console.log(location); // Print each location
                             });
                             break;
-                        
+
                     }
                 }
-                 allcity.append(div);
+                allcity.append(div);
             });
         });
     }
@@ -104,7 +105,7 @@ fetchData(item);
 
 maincontainer.append(allcity);
 
-h3_1.addEventListener("click",  ()=>{
-    document.body.style.backgroundColor ="pink"
+h3_1.addEventListener("click", () => {
+    document.body.style.backgroundColor = "pink"
 })
-   
+

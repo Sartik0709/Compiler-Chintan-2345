@@ -67,31 +67,31 @@
       "name": "Bangalore",
       "categories": [
         {
-          "category1": "Flats for Sale in",
-          "locations": [
-            "Flats for Sale in Koramangala",
-            "Flats for Sale in Marathahalli",
-            "Flats for Sale in HSR Layout",
-            "Flats for Sale in Whitefield",
-            "Flats for Sale in Indira Nagar",
-            "Flats for Sale in Bellandur",
-            "Flats for Sale in Chandra Layout",
-            "Flats for Sale in J. P. Nagar",
-            "Flats for Sale in BTM Layout",
-            "Flats for Sale in Jayanagar",
-            "Flats for Sale in Below 45 Lakhs",
-            "Flats for Sale in Below 50 Lakhs",
-            "Flats for Sale in Below 60 Lakhs",
-            "Flats for Sale in Below 70 Lakhs",
-            "Flats for Sale in Below 80 Lakhs",
-            "Flats for Sale in Below 90 Lakhs"
+          "category1": "",
+"locations":[
+            " Koramangala",
+            " Marathahalli",
+            " HSR Layout",
+            " Whitefield",
+            " Indira Nagar",
+            " Bellandur",
+            " Chandra Layout",
+            " J. P. Nagar",
+            " BTM Layout",
+            " Jayanagar",
+            " Below 45 Lakhs",
+            " Below 50 Lakhs",
+            " Below 60 Lakhs",
+            " Below 70 Lakhs",
+            " Below 80 Lakhs",
+            " Below 90 Lakhs"
           ]
         },
         {
           "category2": "Properties for Sale",
           "locations": [
-            "Properties for Sale in Koramangala",
-            "Properties for Sale in Yelahanka"
+            "    Koramangala",
+            "    Yelahanka"
           ]
         }
       ]
@@ -100,31 +100,31 @@
       "name": "Mumbai",
       "categories": [
         {
-          "category1": "Flats for Sale in ",
+          "category1": " ",
           "locations": [
-            "Flats for Sale in Andheri West",
-            "Flats for Sale in Andheri East",
-            "Flats for Sale in Malad West",
-            "Flats for Sale in Navi Mumbai",
-            "Flats for Sale in Powai",
-            "Flats for Sale in Thane West",
-            "Flats for Sale in Mira Road East",
-            "Flats for Sale in Kharghar",
-            "Flats for Sale in Kandivali East",
-            "Flats for Sale in Bandra West",
-            "Flats for Sale in Below 60 Lakhs",
-            "Flats for Sale in Below 70 Lakhs",
-            "Flats for Sale in Below 80 Lakhs",
-            "Flats for Sale in Below 90 Lakhs",
-            "Flats for Sale in Below 1 Cr",
-            "Flats for Sale in Below 2 Cr"
+            " Andheri West",
+            " Andheri East",
+            " Malad West",
+            " Navi Mumbai",
+            " Powai",
+            " Thane West",
+            " Mira Road East",
+            " Kharghar",
+            " Kandivali East",
+            " Bandra West",
+            " Below 60 Lakhs",
+            " Below 70 Lakhs",
+            " Below 80 Lakhs",
+            " Below 90 Lakhs",
+            " Below 1 Cr",
+            " Below 2 Cr"
           ]
         },
         {
           "category2": "Properties for Sale",
           "locations": [
-            "Properties for Sale in Kharghar",
-            "Properties for Sale in Bandra"
+            "    Kharghar",
+            "    Bandra"
           ]
         }
       ]
@@ -133,24 +133,24 @@
       "name": "Chennai",
       "categories": [
         {
-          "category1": "Flats for Sale in",
+          "category1": "",
           "locations": [
-            "Flats for Sale in Velachery",
-            "Flats for Sale in Thiruvanmiyur",
-            "Flats for Sale in Madipakkam",
-            "Flats for Sale in Thoraipakkam",
-            "Flats for Sale in Sholinganallur",
-            "Flats for Sale in Medavakkam",
-            "Flats for Sale in Mylapore",
-            "Flats for Sale in Adyar",
-            "Flats for Sale in T Nagar",
-            "Flats for Sale in Perungudi",
-            "Flats for Sale in Below 45 Lakhs",
-            "Flats for Sale in Below 50 Lakhs",
-            "Flats for Sale in Below 60 Lakhs",
-            "Flats for Sale in Below 70 Lakhs",
-            "Flats for Sale in Below 80 Lakhs",
-            "Flats for Sale in Below 90 Lakhs"
+            " Velachery",
+            " Thiruvanmiyur",
+            " Madipakkam",
+            " Thoraipakkam",
+            " Sholinganallur",
+            " Medavakkam",
+            " Mylapore",
+            " Adyar",
+            " T Nagar",
+            " Perungudi",
+            " Below 45 Lakhs",
+            " Below 50 Lakhs",
+            " Below 60 Lakhs",
+            " Below 70 Lakhs",
+            " Below 80 Lakhs",
+            " Below 90 Lakhs"
           ]
         },
         {
@@ -166,31 +166,31 @@
       "name": "Pune",
       "categories": [
         {
-          "category1": "Flats for Sale in",
+          "category1": "",
           "locations": [
-            "Flats for Sale in Wakad",
-            "Flats for Sale in Kharadi",
-            "Flats for Sale in Baner",
-            "Flats for Sale in hadapsar",
-            "Flats for Sale in Aundh",
-            "Flats for Sale in Kothrud",
-            "Flats for Sale in Pimple Saudagar",
-            "Flats for Sale in Viman Nagar",
-            "Flats for Sale in Pimpri",
-            "Flats for Sale in Hinjewadi",
-            "Flats for Sale in Below 45 Lakhs in Pune",
-            "Flats for Sale in Below 50 Lakhs in Pune",
-            "Flats for Sale in Below 60 Lakhs in Pune",
-            "Flats for Sale in Below 70 Lakhs in Pune",
-            "Flats for Sale in Below 80 Lakhs in Pune",
-            "Flats for Sale in Below 90 Lakhs in Pune"
+            " Wakad",
+            " Kharadi",
+            " Baner",
+            " hadapsar",
+            " Aundh",
+            " Kothrud",
+            " Pimple Saudagar",
+            " Viman Nagar",
+            " Pimpri",
+            " Hinjewadi",
+            " Below 45 Lakhs in Pune",
+            " Below 50 Lakhs in Pune",
+            " Below 60 Lakhs in Pune",
+            " Below 70 Lakhs in Pune",
+            " Below 80 Lakhs in Pune",
+            " Below 90 Lakhs in Pune"
           ]
         },
         {
           "category2": "Properties for Sale in",
           "locations": [
-            "Properties for Sale in Hadapsar",
-            "Properties for Sale in Kondhwa"
+            "    Hadapsar",
+            "    Kondhwa"
           ]
         }
       ]
@@ -199,7 +199,7 @@
       "name": "Gurgaon",
       "categories": [
         {
-          "category1": "Flats for Sale",
+          "category1": "",
           "locations": [
             "1 BHK Flats in Gurgaon",
             "2 BHK Flats in Gurgaon",
@@ -211,19 +211,19 @@
             "Unfurnished Flats in Gurgaon",
             "Independent Floor for Sale in Gurgaon",
             "Independent House for Sale in Gurgaon",
-            "Flats for Sale Below 50 Lakhs in Gurgaon",
-            "Flats for Sale Below 45 Lakhs in Gurgaon",
-            "Flats for Sale Below 60 Lakhs in Gurgaon",
-            "Flats for Sale Below 70 Lakhs in Gurgaon",
-            "Flats for Sale Below 80 Lakhs in Gurgaon",
-            "Flats for Sale Below 90 Lakhs in Gurgaon"
+            "Below 50 Lakhs in Gurgaon",
+            "Below 45 Lakhs in Gurgaon",
+            "Below 60 Lakhs in Gurgaon",
+            "Below 70 Lakhs in Gurgaon",
+            "Below 80 Lakhs in Gurgaon",
+            "Below 90 Lakhs in Gurgaon"
           ]
         },
         {
           "category2": "Properties for Sale",
           "locations": [
-            "Properties for Sale In Sector 31",
-            "Properties for Sale In Sector 4"
+            "    Sector 31",
+            "    Sector 4"
           ]
         }
       ]
@@ -232,31 +232,31 @@
       "name": "Hyderabad",
       "categories": [
         {
-          "category1": "Flats for Sale in",
+          "category1": "",
           "locations": [
-            "Flats for Sale in Banjara Hills",
-            "Flats for Sale in Jubilee Hills",
-            "Flats for Sale in Madhapur",
-            "Flats for Sale in Kukatpally Housing Board Colony",
-            "Flats for Sale in Hitech City",
-            "Flats for Sale in Gachibowli",
-            "Flats for Sale in Kukatpally",
-            "Flats for Sale in Whitefields",
-            "Flats for Sale in Himayath Nagar",
-            "Flats for Sale in Sanath Nagar",
-            "Flats for Sale in Hyderabad Below 45 Lakhs in ",
-            "Flats for Sale in Hyderabad Below 50 Lakhs in ",
-            "Flats for Sale in Hyderabad Below 60 Lakhs in ",
-            "Flats for Sale in Hyderabad Below 70 Lakhs in ",
-            "Flats for Sale in Hyderabad Below 80 Lakhs in ",
-            "Flats for Sale in Hyderabad Below 90 Lakhs in "
+            " Banjara Hills",
+            " Jubilee Hills",
+            " Madhapur",
+            " Kukatpally Housing Board Colony",
+            " Hitech City",
+            " Gachibowli",
+            " Kukatpally",
+            " Whitefields",
+            " Himayath Nagar",
+            " Sanath Nagar",
+            " Hyderabad Below 45 Lakhs in ",
+            " Hyderabad Below 50 Lakhs in ",
+            " Hyderabad Below 60 Lakhs in ",
+            " Hyderabad Below 70 Lakhs in ",
+            " Hyderabad Below 80 Lakhs in ",
+            " Hyderabad Below 90 Lakhs in "
           ]
         },
         {
           "category2": "Properties for Sale in",
           "locations": [
-            "Properties for Sale in Gachibowli",
-            "Properties for Sale in Kondapur"
+            "    Gachibowli",
+            "    Kondapur"
           ]
         }
       ]
@@ -265,31 +265,31 @@
       "name": "Delhi",
       "categories": [
         {
-          "category1": "Flats for Sale in",
+          "category1": "",
           "locations": [
-            "Flats for Sale in vasant Vihar",
-            "Flats for Sale in Safdarjung Enclave",
-            "Flats for Sale in Hauz Khas",
-            "Flats for Sale in Greater Kailash",
-            "Flats for Sale in Coonaught Place",
-            "Flats for Sale in Gulmohar Park",
-            "Flats for Sale in Green Park Extendion",
-            "Flats for Sale in East of Kailash",
-            "Flats for Sale in Panchsheel Park",
-            "Flats for Sale in Lajpat Nagar I",
-            "Flats for Sale in Delhi Below 45 Lakhs in ",
-            "Flats for Sale in Delhi Below 50 Lakhs in ",
-            "Flats for Sale in Delhi Below 60 Lakhs in ",
-            "Flats for Sale in Delhi Below 70 Lakhs in ",
-            "Flats for Sale in Delhi Below 80 Lakhs in ",
-            "Flats for Sale in Delhi Below 90 Lakhs in "
+            " vasant Vihar",
+            " Safdarjung Enclave",
+            " Hauz Khas",
+            " Greater Kailash",
+            " Coonaught Place",
+            " Gulmohar Park",
+            " Green Park Extendion",
+            " East of Kailash",
+            " Panchsheel Park",
+            " Lajpat Nagar I",
+            " Delhi Below 45 Lakhs in ",
+            " Delhi Below 50 Lakhs in ",
+            " Delhi Below 60 Lakhs in ",
+            " Delhi Below 70 Lakhs in ",
+            " Delhi Below 80 Lakhs in ",
+            " Delhi Below 90 Lakhs in "
           ]
         },
         {
           "category2": "Properties for Sale in",
           "locations": [
-            "Properties for Sale in Hadapsar",
-            "Properties for Sale in Kondhwa"
+            "    Hadapsar",
+            "    Kondhwa"
           ]
         }
       ]
@@ -298,18 +298,18 @@
       "name": "Noida",
       "categories": [
         {
-          "category1": "Flats for Sale in",
+          "category1": "",
           "locations": [
-            "Flats for Sale in Noida Sector 62",
-            "Flats for Sale in Noida Sector 50",
-            "Flats for Sale in Noida Sector 137",
-            "Flats for Sale in Noida Sector 75",
-            "Flats for Sale in Noida Sector 76",
-            "Flats for Sale in Kendriya Vihar Sector 51 Noida",
-            "Flats for Sale in Noida Sector 18",
-            "Flats for Sale in Sector 107 Noida",
-            "Flats for Sale in Sector 128 Noida",
-            "Flats for Sale in Sector 150 Noida",
+            " Noida Sector 62",
+            " Noida Sector 50",
+            " Noida Sector 137",
+            " Noida Sector 75",
+            " Noida Sector 76",
+            " Kendriya Vihar Sector 51 Noida",
+            " Noida Sector 18",
+            " Sector 107 Noida",
+            " Sector 128 Noida",
+            " Sector 150 Noida",
             "Flats for Sale Below 70 Lakhs in Delhi",
             "Flats for Sale Below 80 Lakhs in Delhi",
             "Flats for Sale Below 90 Lakhs in Delhi"
@@ -318,9 +318,9 @@
         {
           "category2": "Properties for Sale in",
           "locations": [
-            "Properties for Sale in Noida Extension",
-            "Properties for Sale in Sector 12 Noida",
-            "Properties for Sale in Greater Noida"
+            "    Noida Extension",
+            "    Sector 12 Noida",
+            "    Greater Noida"
           ]
         }
       ]
