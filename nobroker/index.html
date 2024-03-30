@@ -1,45 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <style>
-        .high{
-            color: #464646;
-            font-size: 30px;
-            margin-top: 30px;
+        body{
+            margin: 0;
+            padding: 0;
         }
-        .inn{
-            display: flex;
-             flex-wrap: wrap;
-             width:85%;
-             gap:15px;
-             font-weight: none;
+        .high {
+            color: #464646;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-left: 22px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
         }
-        .inn>button{
+
+        .inn {
+            display: flex;
+            flex-wrap: wrap;
+            width: 85%;
+            gap: 15px;
+            font-weight: none;
+            /* border: 2px solid; */
+
+        }
+
+        .inn>button,
+        a {
             background-color: #E8E8E8;
             border: none;
             font-size: 13px;
             height: 27px;
             border-radius: 5px;
             color: #464646;
-            
-        }
-        .nav_con{
-            display: flex;
-            
-            
-            
-        }
-       
-        .ne1{
-            margin-left: 25px;
+            text-decoration: none;
+
         }
 
+        .nav_con {
+            display: flex;
+            margin-top: -20px;
+            /* border: 2px solid; */
+            flex-direction: column;
+
+
+
+
+        }
+
+        .ne1 {
+            margin-left: 25px;
+            /* border: 2px solid; */
+
+        }
+
+        .ne1>h2,
+        .ne2>h2 {
+            color: #464646;
+            font-size: 20px;
+            font-weight: none;
+
+        }
+
+        #in2 {
+            width: 100%;
+        }
+
+       
+
+        .nav_m1 {
+            width: 100%;
+            /* height: 20vh; */
+            /* border: 2px solid; */
+            /* display: grid;
+            grid-area: "a1 a2"; */
+            display: flex;
+            flex-wrap: wrap;
+                        
+            
+            
+        
+            
+            background-color: #EDEDED;
+            margin-top: -7px;
+            margin-bottom: -7px;
+            padding-top: 33px;
+
+
+
+        }
+
+        .e1 {
+            border-right: 0.5px solid #464646;
+            width: 50%;
+            /* height: 15vh; */
+            text-align: center;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+
+            display: flex; 
+            margin-bottom: 25px;
+           margin-top: -10px;
+             
+            /* margin-top: 20px; */
+        }
+        .e2{
+            text-align: center;
+            width: 40%;
+            /* height: 15vh; */
+
+            text-align: center;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           margin-bottom: 25px;
+           margin-top: -10px;
+
+            display: flex; 
+             
+           
+        }
+
+        .f {
+            color: #464646;
+            /* text-align: center; */
+            margin-top: -10px;
+
+        }
+
+        
+        .navy_button{
+            background-color: #464646;
+            /* color: #E8E8E8; */
+            height: 30px;width: 100px;
+            border-radius: 4px;
+
+        }
+        .z{
+            color: white;
+            background-color: #464646;
+            
+        }
+        .navya_foot {
+            /* height: 12vh; */
+            display: flex;
+            justify-content: center;
+            gap:25px;
+            align-items: center;
+            width: 70%;
+            flex-wrap: wrap;
+        
+            margin-left:100px ;
+
+        }
+        .navya_foot a{
+            font-size: 18px;
+            background-color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .foot_img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+            margin-top: 25px;
+        }
+        .navya_icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:15px;
+            margin-top: 25px;
+
+        }
+        .navya_icon>div{
+            width: 50px;
+            height: 50px;
+            /* border: solid; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #E8E8E8;
+            border-radius: 50%;
+            
+        }
+        .bottom{
+            text-align: center;
+            color: #464646;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        /* carousel */
+       
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+      background-color: #334A5C;
+
+    }
+
+
+    .card {
+
+
+      width: 26%;
+      padding: 20px;
+      text-align: left;
+      
+      font-family: Arial, sans-serif;
+      background-color: white;
+
+    }
+
+    .rating {
+      color: blue;
+      
+      font-size: 16px;
+      
+    }
+
+    .name {
+      font-size: 18px;
+      
+      font-size: 16px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    .review {
+      font-style: italic;
+      font-weight: 700;
+      margin-top: 10px;
+       color: #464646;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .description {
+      margin-top: 10px;
+      color: #464646;
+      font-size: 14px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .image {
+      width: 40px;
+      
+      height: 40px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      float: left;
+      margin-right: 10px;
+   
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    #prevBtn,
+    #nextBtn {
+      position: absolute;
+      top: 50%;
+      background-color: white;
+      transform: translateY(-50%);
+     
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    #prevBtn {
+      left: 10px;
+    }
+
+    #nextBtn {
+      right: 10px;
+    }
+    .card-container0{
+      position: relative;
+    }
+        @media (min-width:750px){
+             .e1{
+                flex-direction: column;
+                
+             }
+             .nav_con{
+                flex-direction: row;
+
+             }
+            
+             
+        }
+      
+
+       
     </style>
 </head>
+
 <body>
     <div class="navy">
 
@@ -47,65 +312,132 @@
     <div class="nav_con">
         <div class="ne1">
             <h2>Buy</h2>
-            <div class="inn1">
-                <button>Home Loan </button>
-                <button>property Legal Services
+            <div class="inn">
+                <button><a href="">Home Loan</a> </button>
+                <button><a href="">property Legal Services</a>
                 </button>
-                <button>Interiors
+                <button><a href="">Interiors</a>
                 </button>
-                <button>Sale Agreement
+                <button><a href="">Sale Agreement</a>
                 </button>
-                <button>NoBroker For NRI's
+                <button><a href="">NoBroker For NRI's</a>
                 </button>
-                <button>New Builder Project
+                <button><a href="">New Builder Project</a>
                 </button>
-                <button>EMI Calculator
+                <button><a href="">EMI Calculator</a>
                 </button>
-                <button>Home Loan Balance Transfer
+                <button><a href="">Home Loan Balance Transfer</a>
                 </button>
-                <button>Home Loan Eligibility Check
+                <button><a href="">Home Loan Eligibility Check</a>
                 </button>
-                <button>Apply Home Loan
+                <button><a href="">Apply Home Loan</a>
                 </button>
-                <button>button Approved Home Loan
+                <button><a href="">button Approved Home Loan</a>
                 </button>
-                <button>Buy / Sell Property Questions
+                <button><a href="">Buy / Sell Property Questions</a>
                 </button>
-                
-            </div>
-            </div>
-           
-            <div class="ne2">
-                <h2>Rent</h2>
-                <div class="inn">
-                    <button>Rental Agreement</button>
-                    <button>Pay Rent
-                    </button>
-                    <button>Refer and Earn
-                    </button>
-                    <button>Home Services
-                    </button>
-                    <button>Packers and Movers
-                    </button>
-                    <button>Property Management in India
-                    </button>
-                    <button>Home Services Questions
 
-                    </button>
-                    <button>Rent Services Questions
-                    </button>
-                    <button>Rent Calculator
-                    </button>
-                    <button>Online Rent Receipt Generator
-                    </button>
-                    
-                    
-                </div>
-                
-        
+            </div>
+        </div>
+
+        <div class="ne2">
+            <h2>Rent</h2>
+            <div class="inn " id="in2">
+                <button><a href="">Rental Agreement</a></button>
+                <button><a href="">Pay Rent</a>
+                </button>
+                <button><a href="">Refer and Earn</a>
+                </button>
+                <button><a href="">Home Services</a>
+                </button>
+                <button><a href="">Packers and Movers</a>
+                </button>
+                <button><a href="">Property Management in India</a>
+                </button>
+                <button><a href="">Home Services Questions</a>
+
+                </button>
+                <button><a href="">Rent Services Questions</a>
+                </button>
+                <button><a href="">Rent Calculator</a>
+                </button>
+                <button><a href="">Online Rent Receipt Generator</a>
+                </button>
+
+
+            </div>
+
+
 
         </div>
     </div>
+
+    <hr style="margin-top: 45px;">
+   
+        <div class="nav_m1">
+            <div class="e1">
+                <h3
+                    style="text-align: center;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: #464646;">
+                    Find Property
+                </h3>
+                <p class="f">Select from thousands of options, without brokerage.
+                </p>
+                <button class="navy_button"><a href="" class="z">Find Now</a></button>
+            </div>
+            <div class="e2">
+                <h3
+                    style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: #464646;">
+                    List Your Property
+                </h3>
+                <p class="f c">For Free. Without any brokerage.
+                </p>
+                <button class="navy_button"><a href="" class="z">Free Posting</a></button>
+            </div>
+
+       
+    </div>
+    <hr style="padding-top: 25px;">
+    <div class="navya_foot">
+      
+        <a href="">About Us</a>
+        <a href="">Careers</a>
+        <a href="">Terms & Conditions</a><a href="">Privacy Policy</a><a href="">Testimonials</a><a href="">Sitemap
+        </a><a href="">FAQs
+        </a>
+        
+    </div>
+    <hr style="margin-top: 25px;">
+    <div class="foot_img">
+        <img src="https://assets.nobroker.in/nb-new/public/Common/android_download.svg" alt="">
+        <img src="https://assets.nobroker.in/nb-new/public/Common/IOS_download.svg" alt="">
+    
+    </div>
+    <div class="navya_icon">
+        <div><img src="https://assets.nobroker.in/nb-new/public/Common/social/facebook.svg" alt=""></div>
+        <div><img src="https://assets.nobroker.in/nb-new/public/Common/social/twitter.svg" alt=""></div>
+        <div><img src="https://assets.nobroker.in/nb-new/public/Common/social/instagram.svg" alt=""></div>
+        <div><img src="https://assets.nobroker.in/nb-new/public/Common/social/linkedin.svg" alt=""></div>
+        <div><img src="https://assets.nobroker.in/nb-new/public/Common/social/youtube.svg" alt=""></div>
+
+    </div>
+    <p class="bottom">© 2013-23 NoBroker Technologies Solution Pvt. Ltd.
+    </p>
+    <!-- carousel -->
+    
+  <div class="card-container0">
+    <div class="card-container"></div>
+    <div class="buttons">
+      <button id="prevBtn" onclick="prevSlide()"><span class="material-symbols-outlined">
+          arrow_left_alt
+        </span></button>
+      <button id="nextBtn" onclick="nextSlide()"><span class="material-symbols-outlined">
+          arrow_right_alt
+        </span></button>
+    </div>
+  </div>
+
+
     <script src="main.js"></script>
 </body>
+
 </html>
