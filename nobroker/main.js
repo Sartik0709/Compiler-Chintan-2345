@@ -1,3 +1,64 @@
+let rent_container = document.getElementById("pay-for-rent");
+
+let h2_h = document.createElement("h2");
+h2_h.innerText = "Pay Rent and Fees with Credit Card";
+rent_container.append(h2_h);
+
+let datacd = `http://localhost:3000/payforrent`
+
+function createcard(detail) {
+    let card = document.createElement("div");
+    let card_img = document.createElement("div");
+    let img = document.createElement("img");
+    let card_body = document.createElement("div");
+    let card_hading = document.createElement("h5");
+    let card_title = document.createElement("p");
+    let card_link = document.createElement("a");
+
+    card.className = "card";
+    card_img.className = "card_img";
+    img.src = detail.image;
+    img.alt = "alt";
+    card_hading.className = "card-heading";
+    card_hading.innerText = `${detail.heading}`;
+    card_title.className = "card-title";
+    card_title.innerText = `${detail.title}`;
+    card_link.className = "card-link";
+    card_link.innerText = "View Details";
+    card_link.href = "#";
+
+    card_img.append(img);
+    card_body.append(card_hading, card_title, card_link);
+    card.append(card_img, card_body);
+    rent_container.append(card);
+}
+
+function appendData(data) {
+    let card_list = document.createElement("div");
+    card_list.className = "class-list";
+
+    data.forEach((detail) => {
+        let card = createcard(detail);
+        card_list.append(card);
+
+    });
+}
+
+
+
+async function fetchcard(url) {
+    try {
+        let res = await fetch(`${url}`);
+        let data = await res.json();
+        console.log("card", data);
+        appendData(data);
+    }
+    catch (error) {
+        console.log("error");
+    }
+}
+fetchcard(datacd);
+
 // ---------------------------------------list part ------------------------------------------------
 
 let maincontainer = document.getElementById("main_container");
@@ -31,81 +92,253 @@ h3_7.innerText = "New Projects & Plots";
 h3_8.innerText = "City Real Estate";
 
 head_list.append(h3_1, h3_2, h3_3, h3_4, h3_5, h3_6, h3_7, h3_8);
-maincontainer.append(head_list);
+// maincontainer.append(head_list);
 
-let allcity = document.createElement("div");
-allcity.className = "all-city";
+// let allcity = document.createElement("div");
+// allcity.className = "all-city";
 
 
 
 let item = `http://localhost:3000/cities`;
 
-async function fetchData(url) {
-    try {
-        let res = await fetch(`${url}`);
-        let data = await res.json();
-        // console.log(data);
+// async function fetchData(url) {
+//     try {
+//         let res = await fetch(`${url}`);
+//         let data = await res.json();
+//         // console.log(data);
 
-        data.forEach(city => {
+//         data.forEach(city => {
 
-            // console.log(city.name);
+//             // console.log(city.name);
 
-            const div = document.createElement('div');
-            const ul = document.createElement('ul');
-            // Iterate over categories
-            city.categories.forEach(category => {
+//             const div = document.createElement('div');
+//             const ul = document.createElement('ul');
+//             // Iterate over categories
+//             city.categories.forEach(category => {
 
-                //  console.log(category);
-                for (let prop in category) {
-                    switch (prop) {
-                        case 'category1':
+//                 //  console.log(category);
+//                 for (let prop in category) {
+//                     switch (prop) {
+//                         case 'category1':
 
-                            const h4_L = document.createElement('h4');
-                            h4_L.textContent = `Flats for Sale in ${city.name}`;
-                            ul.append(h4_L);
-                            let r = `${category[prop]} ${city.name}`;
-                             console.log(r);
-                            category.locations.forEach(location => {
-                                const li = document.createElement('li');
-                                li.textContent = `Flats for Sale in ${location}`;
-                                ul.appendChild(li);
-                                div.append(ul);
-                                //  console.log(location); // Print each location
-                            });
+//                             const h4_L = document.createElement('h4');
+//                             h4_L.textContent = `Flats for Sale in ${city.name}`;
+//                             ul.append(h4_L);
+//                             let r = `${category[prop]} ${city.name}`;
+//                             console.log(r);
+//                             category.locations.forEach(location => {
+//                                 const li = document.createElement('li');
+//                                 if (city.name == "Gurgaon") {
+//                                     li.textContent = `${location}`;
+//                                 } else {
+//                                     li.textContent = `Flats for Sale in ${location}`;
+//                                 }
+//                                 ul.appendChild(li);
+//                                 div.append(ul);
+//                                 //  console.log(location); // Print each location
+//                             });
 
-                            break;
-                        case 'category2':
-                            const h4_P = document.createElement('h4');
-                            h4_P.textContent = `Property for Sale in ${city.name}`;
-                            ul.append(h4_P);
-                            let t = `${category[prop]} ${city.name}`;
-                            // console.log(t);
-                            category.locations.forEach(location => {
-                                const li = document.createElement('li');
-                                li.textContent = `Property for Sale in ${location}`;
+//                             break;
+//                         case 'category2':
+//                             const h4_P = document.createElement('h4');
+//                             h4_P.textContent = `Property for Sale in ${city.name}`;
+//                             ul.append(h4_P);
+//                             let t = `${category[prop]} ${city.name}`;
+//                             // console.log(t);
+//                             category.locations.forEach(location => {
+//                                 const li = document.createElement('li');
+//                                 li.textContent = `Property for Sale in ${location}`;
 
-                                ul.appendChild(li);
-                                div.append(ul);
+//                                 ul.appendChild(li);
+//                                 div.append(ul);
 
-                                // console.log(location); // Print each location
-                            });
-                            break;
+//                                 // console.log(location); // Print each location
+//                             });
+//                             break;
 
-                    }
-                }
-                allcity.append(div);
-            });
-        });
-    }
-    catch (error) {
-        console.log("Error");
-    }
-}
-fetchData(item);
+//                     }
+//                 }
+//                 allcity.append(div);
+//             });
+//         });
+//     }
+//     catch (error) {
+//         console.log("Error");
+//     }
+// }
+// fetchData(item);
 
-maincontainer.append(allcity);
+// maincontainer.append(allcity);
 
-h3_1.addEventListener("click", () => {
-    document.body.style.backgroundColor = "pink"
-})
+// h3_1.addEventListener("click", () => {
+//     allcity.innerHTML = "";
+//     fetchData(item);
+// });
+
+// h3_2.addEventListener("click", () => {
+//     async function dataforsecbtn(url) {
+//         try {
+//             let res = await fetch(`${url}`);
+//             let data = await res.json();
+//             console.log(data);
+//             allcity.innerHTML = "";
+//             data.forEach(city => {
+//                 const div = document.createElement('div');
+//                 const ul = document.createElement('ul');
+//                 city.categories.forEach(category => {
+
+//                     // var obj1Data = data.map(function(item) {
+//                     //     return item.obj1;
+//                     //  console.log(category);
+
+//                     for (let prop in category) {
+//                         switch (prop) {
+//                             case 'category1':
+
+//                                 const h4_L = document.createElement('h4');
+//                                 h4_L.textContent = `Flats for Sale in ${city.name}`;
+//                                 ul.append(h4_L);
+//                                 category.locations.forEach(location => {
+//                                     const li = document.createElement('li');
+//                                     if (city.name == "Gurgaon") {
+//                                         li.textContent = `${location}`;
+//                                     } else {
+//                                         li.textContent = `Flats for Sale in ${location}`;
+//                                     }
+
+//                                     ul.appendChild(li);
+//                                     div.append(ul);
+//                                 })
+
+//                                 break;
+//                         }
+//                         allcity.append(div);
+//                     }
+
+//                 });
+
+//             });
+
+//         }
+//         catch (error) {
+//             console.log("error");
+//         }
+//     }
+
+//     dataforsecbtn(item);
+// });
+
+
+// h3_3.addEventListener("click", () => {
+//     async function pg_hostal(url) {
+//         try {
+//             let res = await fetch(`${url}`);
+//             let data = await res.json();
+//             console.log(data);
+//             allcity.innerHTML = "";
+//             data.forEach(city => {
+//                 const div = document.createElement('div');
+//                 const ul = document.createElement('ul');
+//                 city.categories.forEach(category => {
+
+//                     for (let prop in category) {
+//                         switch (prop) {
+//                             case 'category1':
+
+//                                 const h4_L = document.createElement('h4');
+//                                 if (city.name == "Gurgaon" || city.name == "Noida") {
+//                                     break;
+//                                 }
+//                                 else {
+//                                     h4_L.textContent = `PG in ${city.name}`;
+//                                 }
+
+//                                 ul.append(h4_L);
+
+//                                 category.locations.slice(0, 10).forEach(location => {
+
+//                                     const li = document.createElement('li');
+
+//                                     li.textContent = `PG in ${location}`;
+
+
+
+//                                     ul.appendChild(li);
+//                                     div.append(ul);
+
+//                                 });
+
+
+//                                 break;
+//                         }
+//                         allcity.append(div);
+//                     }
+
+//                 });
+
+//             });
+
+//         }
+//         catch (error) {
+//             console.log("error");
+//         }
+//     }
+
+//     pg_hostal(item);
+// });
+
+// h3_4.addEventListener("click", () => {
+
+//     async function flatmates(url) {
+//         try {
+//             let res = await fetch(`${url}`);
+//             let data = await res.json();
+//             console.log(data);
+//             allcity.innerHTML = "";
+//             data.forEach(city => {
+//                 const div = document.createElement('div');
+//                 const ul = document.createElement('ul');
+//                 city.categories.forEach(category => {
+
+//                     for (let prop in category) {
+//                         switch (prop) {
+//                             case 'category1':
+
+//                                 const h4_L = document.createElement('h4');
+//                                 if (city.name == "Noida" || city.name == "Gurgaon") {
+//                                     break;
+//                                 }
+//                                 else {
+//                                     h4_L.textContent = `Room For Rent in ${city.name}`;
+//                                 }
+
+//                                 ul.append(h4_L);
+//                                 category.locations.slice(0, 10).forEach(location => {
+//                                     const li = document.createElement('li');
+
+//                                     li.textContent = `Room For Rent in ${location}`;
+
+
+//                                     ul.appendChild(li);
+//                                     div.append(ul);
+//                                 })
+
+//                                 break;
+//                         }
+//                         allcity.append(div);
+//                     }
+
+//                 });
+
+//             });
+
+//         }
+//         catch (error) {
+//             console.log("error");
+//         }
+//     }
+
+//     flatmates(item);
+// })
+
 

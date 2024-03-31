@@ -1,74 +1,74 @@
 {
-    "feedbacks_ashwin": [
-      {
-        "name": "John Smith",
-        "rating": 4,
-        "review": "Great Service!",
-        "feedback": "I had a great experience with Nobroker. They helped me find a wonderful apartment with all the amenities I needed. Highly recommended!"
-      },
-      {
-        "name": "Emily Johnson",
-        "rating": 3,
-        "review": "Decent Experience",
-        "feedback": "My experience with Nobroker was decent. They assisted me in finding a suitable place to live, although it took a bit longer than expected."
-      },
-      {
-        "name": "Michael Brown",
-        "rating": 5,
-        "review": "Excellent Service!",
-        "feedback": "Nobroker provided excellent service. They went above and beyond to help me find the perfect accommodation. Couldn't be happier!"
-      },
-      {
-        "name": "Jessica Williams",
-        "rating": 4,
-        "review": "Good Experience",
-        "feedback": "I had a good experience with Nobroker. They were responsive and helpful throughout the process of finding a new place to live."
-      },
-      {
-        "name": "David Wilson",
-        "rating": 3,
-        "review": "Average Service",
-        "feedback": "My experience with Nobroker was average. They were able to find me a place to stay, but it wasn't exactly what I was looking for."
-      },
-      {
-        "name": "Sarah Martinez",
-        "rating": 5,
-        "review": "Outstanding Service!",
-        "feedback": "I cannot thank Nobroker enough for their outstanding service. They made the entire process of finding a new home stress-free and enjoyable."
-      },
-      {
-        "name": "Daniel Taylor",
-        "rating": 4,
-        "review": "Very Satisfied",
-        "feedback": "I am very satisfied with the service provided by Nobroker. They helped me find a great place to live within my budget."
-      },
-      {
-        "name": "Olivia Garcia",
-        "rating": 3,
-        "review": "Fair Experience",
-        "feedback": "My experience with Nobroker was fair. They were able to find me a place to live, but there were some issues along the way."
-      },
-      {
-        "name": "James Rodriguez",
-        "rating": 5,
-        "review": "Exceptional Service!",
-        "feedback": "Nobroker provided exceptional service. They listened to my requirements and found me the perfect accommodation in no time."
-      },
-      {
-        "name": "Emma Moore",
-        "rating": 4,
-        "review": "Very Good Experience",
-        "feedback": "I had a very good experience with Nobroker. They were professional and efficient in helping me find a suitable place to live."
-      }
-    ],
-     
+  "feedbacks_ashwin": [
+    {
+      "name": "John Smith",
+      "rating": 4,
+      "review": "Great Service!",
+      "feedback": "I had a great experience with Nobroker. They helped me find a wonderful apartment with all the amenities I needed. Highly recommended!"
+    },
+    {
+      "name": "Emily Johnson",
+      "rating": 3,
+      "review": "Decent Experience",
+      "feedback": "My experience with Nobroker was decent. They assisted me in finding a suitable place to live, although it took a bit longer than expected."
+    },
+    {
+      "name": "Michael Brown",
+      "rating": 5,
+      "review": "Excellent Service!",
+      "feedback": "Nobroker provided excellent service. They went above and beyond to help me find the perfect accommodation. Couldn't be happier!"
+    },
+    {
+      "name": "Jessica Williams",
+      "rating": 4,
+      "review": "Good Experience",
+      "feedback": "I had a good experience with Nobroker. They were responsive and helpful throughout the process of finding a new place to live."
+    },
+    {
+      "name": "David Wilson",
+      "rating": 3,
+      "review": "Average Service",
+      "feedback": "My experience with Nobroker was average. They were able to find me a place to stay, but it wasn't exactly what I was looking for."
+    },
+    {
+      "name": "Sarah Martinez",
+      "rating": 5,
+      "review": "Outstanding Service!",
+      "feedback": "I cannot thank Nobroker enough for their outstanding service. They made the entire process of finding a new home stress-free and enjoyable."
+    },
+    {
+      "name": "Daniel Taylor",
+      "rating": 4,
+      "review": "Very Satisfied",
+      "feedback": "I am very satisfied with the service provided by Nobroker. They helped me find a great place to live within my budget."
+    },
+    {
+      "name": "Olivia Garcia",
+      "rating": 3,
+      "review": "Fair Experience",
+      "feedback": "My experience with Nobroker was fair. They were able to find me a place to live, but there were some issues along the way."
+    },
+    {
+      "name": "James Rodriguez",
+      "rating": 5,
+      "review": "Exceptional Service!",
+      "feedback": "Nobroker provided exceptional service. They listened to my requirements and found me the perfect accommodation in no time."
+    },
+    {
+      "name": "Emma Moore",
+      "rating": 4,
+      "review": "Very Good Experience",
+      "feedback": "I had a very good experience with Nobroker. They were professional and efficient in helping me find a suitable place to live."
+    }
+  ],
+
   "cities": [
     {
       "name": "Bangalore",
       "categories": [
         {
-          "category1": "",
-"locations":[
+          "category1": "Flats for Sale in",
+          "locations": [
             " Koramangala",
             " Marathahalli",
             " HSR Layout",
@@ -79,19 +79,19 @@
             " J. P. Nagar",
             " BTM Layout",
             " Jayanagar",
-            " Below 45 Lakhs",
-            " Below 50 Lakhs",
-            " Below 60 Lakhs",
-            " Below 70 Lakhs",
-            " Below 80 Lakhs",
-            " Below 90 Lakhs"
+            " Bangalore Below 45 Lakhs",
+            " Bangalore Below 50 Lakhs",
+            " Bangalore Below 60 Lakhs",
+            " Bangalore Below 70 Lakhs",
+            " Bangalore Below 80 Lakhs",
+            " Bangalore Below 90 Lakhs"
           ]
         },
         {
           "category2": "Properties for Sale",
           "locations": [
-            "    Koramangala",
-            "    Yelahanka"
+            "Koramangala",
+            "Yelahanka"
           ]
         }
       ]
@@ -100,7 +100,7 @@
       "name": "Mumbai",
       "categories": [
         {
-          "category1": " ",
+          "category1": "Flats for Sale in",
           "locations": [
             " Andheri West",
             " Andheri East",
@@ -112,19 +112,19 @@
             " Kharghar",
             " Kandivali East",
             " Bandra West",
-            " Below 60 Lakhs",
-            " Below 70 Lakhs",
-            " Below 80 Lakhs",
-            " Below 90 Lakhs",
-            " Below 1 Cr",
-            " Below 2 Cr"
+            " Mumbai Below 60 Lakhs",
+            " Mumbai Below 70 Lakhs",
+            " Mumbai Below 80 Lakhs",
+            " Mumbai Below 90 Lakhs",
+            " Mumbai Below 1 Cr",
+            " Mumbai Below 2 Cr"
           ]
         },
         {
           "category2": "Properties for Sale",
           "locations": [
-            "    Kharghar",
-            "    Bandra"
+            "Kharghar",
+            "Bandra"
           ]
         }
       ]
@@ -133,7 +133,7 @@
       "name": "Chennai",
       "categories": [
         {
-          "category1": "",
+          "category1": "Flats for Sale in",
           "locations": [
             " Velachery",
             " Thiruvanmiyur",
@@ -145,19 +145,19 @@
             " Adyar",
             " T Nagar",
             " Perungudi",
-            " Below 45 Lakhs",
-            " Below 50 Lakhs",
-            " Below 60 Lakhs",
-            " Below 70 Lakhs",
-            " Below 80 Lakhs",
-            " Below 90 Lakhs"
+            " Chennai Below 45 Lakhs",
+            " Chennai Below 50 Lakhs",
+            " Chennai Below 60 Lakhs",
+            " Chennai Below 70 Lakhs",
+            " Chennai Below 80 Lakhs",
+            " Chennai Below 90 Lakhs"
           ]
         },
         {
           "category2": "Properties for Sale",
           "locations": [
-            "Properties for Sale Shalimar Bagh",
-            "Properties for Sale Velachery"
+            "Shalimar Bagh",
+            "Velachery"
           ]
         }
       ]
@@ -166,7 +166,7 @@
       "name": "Pune",
       "categories": [
         {
-          "category1": "",
+          "category1": "Flats for Sale in",
           "locations": [
             " Wakad",
             " Kharadi",
@@ -189,8 +189,8 @@
         {
           "category2": "Properties for Sale in",
           "locations": [
-            "    Hadapsar",
-            "    Kondhwa"
+            "Hadapsar",
+            "Kondhwa"
           ]
         }
       ]
@@ -199,7 +199,7 @@
       "name": "Gurgaon",
       "categories": [
         {
-          "category1": "",
+          "category1": "Flats for Sale in",
           "locations": [
             "1 BHK Flats in Gurgaon",
             "2 BHK Flats in Gurgaon",
@@ -211,19 +211,19 @@
             "Unfurnished Flats in Gurgaon",
             "Independent Floor for Sale in Gurgaon",
             "Independent House for Sale in Gurgaon",
-            "Below 50 Lakhs in Gurgaon",
-            "Below 45 Lakhs in Gurgaon",
-            "Below 60 Lakhs in Gurgaon",
-            "Below 70 Lakhs in Gurgaon",
-            "Below 80 Lakhs in Gurgaon",
-            "Below 90 Lakhs in Gurgaon"
+            "Flats for Sale Below 50 Lakhs in Gurgaon",
+            "Flats for Sale Below 45 Lakhs in Gurgaon",
+            "Flats for Sale Below 60 Lakhs in Gurgaon",
+            "Flats for Sale Below 70 Lakhs in Gurgaon",
+            "Flats for Sale Below 80 Lakhs in Gurgaon",
+            "Flats for Sale Below 90 Lakhs in Gurgaon"
           ]
         },
         {
           "category2": "Properties for Sale",
           "locations": [
-            "    Sector 31",
-            "    Sector 4"
+            "Sector 31",
+            "Sector 4"
           ]
         }
       ]
@@ -232,7 +232,7 @@
       "name": "Hyderabad",
       "categories": [
         {
-          "category1": "",
+          "category1": "Flats for Sale in",
           "locations": [
             " Banjara Hills",
             " Jubilee Hills",
@@ -244,19 +244,19 @@
             " Whitefields",
             " Himayath Nagar",
             " Sanath Nagar",
-            " Hyderabad Below 45 Lakhs in ",
-            " Hyderabad Below 50 Lakhs in ",
-            " Hyderabad Below 60 Lakhs in ",
-            " Hyderabad Below 70 Lakhs in ",
-            " Hyderabad Below 80 Lakhs in ",
-            " Hyderabad Below 90 Lakhs in "
+            " Hyderabad Below 45 Lakhs",
+            " Hyderabad Below 50 Lakhs",
+            " Hyderabad Below 60 Lakhs",
+            " Hyderabad Below 70 Lakhs",
+            " Hyderabad Below 80 Lakhs",
+            " Hyderabad Below 90 Lakhs"
           ]
         },
         {
           "category2": "Properties for Sale in",
           "locations": [
-            "    Gachibowli",
-            "    Kondapur"
+            "Gachibowli",
+            "Kondapur"
           ]
         }
       ]
@@ -265,7 +265,7 @@
       "name": "Delhi",
       "categories": [
         {
-          "category1": "",
+          "category1": "Flats for Sale in",
           "locations": [
             " vasant Vihar",
             " Safdarjung Enclave",
@@ -277,19 +277,19 @@
             " East of Kailash",
             " Panchsheel Park",
             " Lajpat Nagar I",
-            " Delhi Below 45 Lakhs in ",
-            " Delhi Below 50 Lakhs in ",
-            " Delhi Below 60 Lakhs in ",
-            " Delhi Below 70 Lakhs in ",
-            " Delhi Below 80 Lakhs in ",
-            " Delhi Below 90 Lakhs in "
+            " Delhi Below 45 Lakhs ",
+            " Delhi Below 50 Lakhs ",
+            " Delhi Below 60 Lakhs ",
+            " Delhi Below 70 Lakhs ",
+            " Delhi Below 80 Lakhs ",
+            " Delhi Below 90 Lakhs "
           ]
         },
         {
           "category2": "Properties for Sale in",
           "locations": [
-            "    Hadapsar",
-            "    Kondhwa"
+            "Hadapsar",
+            "Kondhwa"
           ]
         }
       ]
@@ -298,7 +298,7 @@
       "name": "Noida",
       "categories": [
         {
-          "category1": "",
+          "category1": "Flats for Sale in",
           "locations": [
             " Noida Sector 62",
             " Noida Sector 50",
@@ -310,21 +310,89 @@
             " Sector 107 Noida",
             " Sector 128 Noida",
             " Sector 150 Noida",
-            "Flats for Sale Below 70 Lakhs in Delhi",
-            "Flats for Sale Below 80 Lakhs in Delhi",
-            "Flats for Sale Below 90 Lakhs in Delhi"
+            "Below 70 Lakhs in Noida",
+            "Below 80 Lakhs in Noida",
+            "Below 90 Lakhs in Noida"
           ]
         },
         {
           "category2": "Properties for Sale in",
           "locations": [
-            "    Noida Extension",
-            "    Sector 12 Noida",
-            "    Greater Noida"
+            "Noida Extension",
+            "Sector 12 Noida",
+            "Greater Noida"
           ]
         }
       ]
     }
+  ],
+
+  "payforrent": [
+    {
+      "image": "https://www.nobroker.in/nb-new/public/RentoPay/Instacash-icon.svg",
+      "heading": "NB InstaCash",
+      "title": "Get Instant Cash upto &#8377 10 Lakhs",
+      "link": "#"
+    },
+    {
+      "image": "https://www.nobroker.in/nb-new/public/RentoPay/dhamaka_1.png",
+      "heading": "Cashback Dhamaka",
+      "title": "It's raining cashback! Every 100th user gets ₹100 or ₹1000 cashback",
+      "link": "#"
+    },
+    {
+      "image": "https://www.nobroker.in/nb-new/public/RentoPay/renter_club.svg",
+      "heading": "Renter's Club",
+      "title": "Get 50% Off on processing fees by inviting your friends",
+      "link": "#"
+    },
+    {
+      "image": "https://www.nobroker.in/nb-new/public/RentoPay/card.svg",
+      "heading": "Now pay Society Maintenance too",
+      "title": "All your property payments at one place - rent, maintenance, deposit, token",
+      "link": "#"
+    },
+    {
+      "image": "https://www.nobroker.in/nb-new/public/RentoPay/credit_card.svg",
+      "heading": "Earn upto ₹30,000/- in Rewards",
+      "title": "Earn miles and reward points on your Visa and Mastercard cards plus enjoy upto 45 days interest free credit period.",
+      "link": "#"
+    },
+    {
+      "image": "https://www.nobroker.in/nb-new/public/RentoPay/no_hidden_cost.svg",
+      "heading": "Earn upto ₹30,000/- in Rewards",
+      "title": "Earn miles, get cash back and reward points on every property payment with your card.",
+      "link": "#"
+    },
+    {
+      "image": "https://www.nobroker.in/nb-new/public/RentoPay/credit_card.svg",
+      "heading": "Pay with Credit Card",
+      "title": "We accept major cards like Visa and Mastercard so your property payment is hassle free.s",
+      "link": "#"
+    },
+    {
+      "image": "https://www.nobroker.in/nb-new/public/RentoPay/money.svg",
+      "heading": "Enjoy 45 days interest free credit period",
+      "title": "Depending on your card statement date",
+      "link": "#"
+    },
+    {
+      "image": "https://www.nobroker.in/nb-new/public/RentoPay/milestone.svg",
+      "heading": "Reach Milestones Faster",
+      "title": "Earn rewards on those yearly spends with your credit card.",
+      "link": "#"
+    },
+    {
+      "image": "https://www.nobroker.in/nb-new/public/RentoPay/digital_rent_receipt.svg",
+      "heading": "Digital Receipts",
+      "title": "Payment receipts are generated instantly and sent directly to your email ID. Claim your HRA with ease.",
+      "link": "#"
+    },
+    {
+      "image": "https://www.nobroker.in/nb-new/public/RentoPay/no_broker_trust.svg",
+      "heading": "NoBroker Trust",
+      "title": "NoBroker Pay is a product by NoBroker and is 100% secure with PCI compliant payment gateway.",
+      "link": "#"
+    }
   ]
 }
- 
