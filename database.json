@@ -5,6 +5,270 @@
       "data":"Post your Property"
     }
       ],
+      "cities_rashi": [
+        {
+          "name": "Bangalore",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Koramangala",
+                " Marathahalli",
+                " HSR Layout",
+                " Whitefield",
+                " Indira Nagar",
+                " Bellandur",
+                " Chandra Layout",
+                " J. P. Nagar",
+                " BTM Layout",
+                " Jayanagar",
+                " Bangalore Below 45 Lakhs",
+                " Bangalore Below 50 Lakhs",
+                " Bangalore Below 60 Lakhs",
+                " Bangalore Below 70 Lakhs",
+                " Bangalore Below 80 Lakhs",
+                " Bangalore Below 90 Lakhs"
+              ]
+            },
+            {
+              "category2": "Properties for Sale",
+              "locations": [
+                "Koramangala",
+                "Yelahanka"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mumbai",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Andheri West",
+                " Andheri East",
+                " Malad West",
+                " Navi Mumbai",
+                " Powai",
+                " Thane West",
+                " Mira Road East",
+                " Kharghar",
+                " Kandivali East",
+                " Bandra West",
+                " Mumbai Below 60 Lakhs",
+                " Mumbai Below 70 Lakhs",
+                " Mumbai Below 80 Lakhs",
+                " Mumbai Below 90 Lakhs",
+                " Mumbai Below 1 Cr",
+                " Mumbai Below 2 Cr"
+              ]
+            },
+            {
+              "category2": "Properties for Sale",
+              "locations": [
+                "Kharghar",
+                "Bandra"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chennai",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Velachery",
+                " Thiruvanmiyur",
+                " Madipakkam",
+                " Thoraipakkam",
+                " Sholinganallur",
+                " Medavakkam",
+                " Mylapore",
+                " Adyar",
+                " T Nagar",
+                " Perungudi",
+                " Chennai Below 45 Lakhs",
+                " Chennai Below 50 Lakhs",
+                " Chennai Below 60 Lakhs",
+                " Chennai Below 70 Lakhs",
+                " Chennai Below 80 Lakhs",
+                " Chennai Below 90 Lakhs"
+              ]
+            },
+            {
+              "category2": "Properties for Sale",
+              "locations": [
+                "Shalimar Bagh",
+                "Velachery"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pune",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Wakad",
+                " Kharadi",
+                " Baner",
+                " hadapsar",
+                " Aundh",
+                " Kothrud",
+                " Pimple Saudagar",
+                " Viman Nagar",
+                " Pimpri",
+                " Hinjewadi",
+                " Below 45 Lakhs in Pune",
+                " Below 50 Lakhs in Pune",
+                " Below 60 Lakhs in Pune",
+                " Below 70 Lakhs in Pune",
+                " Below 80 Lakhs in Pune",
+                " Below 90 Lakhs in Pune"
+              ]
+            },
+            {
+              "category2": "Properties for Sale in",
+              "locations": [
+                "Hadapsar",
+                "Kondhwa"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gurgaon",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                "1 BHK Flats in Gurgaon",
+                "2 BHK Flats in Gurgaon",
+                "3 BHK Flats in Gurgaon",
+                "4 BHK Flats in Gurgaon",
+                "4+ BHK in Gurgaon",
+                "Fully Furnished Flats in Gurgaon",
+                "Semi Furnished Flats in Gurgaon",
+                "Unfurnished Flats in Gurgaon",
+                "Independent Floor for Sale in Gurgaon",
+                "Independent House for Sale in Gurgaon",
+                "Flats for Sale Below 50 Lakhs in Gurgaon",
+                "Flats for Sale Below 45 Lakhs in Gurgaon",
+                "Flats for Sale Below 60 Lakhs in Gurgaon",
+                "Flats for Sale Below 70 Lakhs in Gurgaon",
+                "Flats for Sale Below 80 Lakhs in Gurgaon",
+                "Flats for Sale Below 90 Lakhs in Gurgaon"
+              ]
+            },
+            {
+              "category2": "Properties for Sale",
+              "locations": [
+                "Sector 31",
+                "Sector 4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hyderabad",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Banjara Hills",
+                " Jubilee Hills",
+                " Madhapur",
+                " Kukatpally Housing Board Colony",
+                " Hitech City",
+                " Gachibowli",
+                " Kukatpally",
+                " Whitefields",
+                " Himayath Nagar",
+                " Sanath Nagar",
+                " Hyderabad Below 45 Lakhs",
+                " Hyderabad Below 50 Lakhs",
+                " Hyderabad Below 60 Lakhs",
+                " Hyderabad Below 70 Lakhs",
+                " Hyderabad Below 80 Lakhs",
+                " Hyderabad Below 90 Lakhs"
+              ]
+            },
+            {
+              "category2": "Properties for Sale in",
+              "locations": [
+                "Gachibowli",
+                "Kondapur"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delhi",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " vasant Vihar",
+                " Safdarjung Enclave",
+                " Hauz Khas",
+                " Greater Kailash",
+                " Coonaught Place",
+                " Gulmohar Park",
+                " Green Park Extendion",
+                " East of Kailash",
+                " Panchsheel Park",
+                " Lajpat Nagar I",
+                " Delhi Below 45 Lakhs ",
+                " Delhi Below 50 Lakhs ",
+                " Delhi Below 60 Lakhs ",
+                " Delhi Below 70 Lakhs ",
+                " Delhi Below 80 Lakhs ",
+                " Delhi Below 90 Lakhs "
+              ]
+            },
+            {
+              "category2": "Properties for Sale in",
+              "locations": [
+                "Hadapsar",
+                "Kondhwa"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Noida",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Noida Sector 62",
+                " Noida Sector 50",
+                " Noida Sector 137",
+                " Noida Sector 75",
+                " Noida Sector 76",
+                " Kendriya Vihar Sector 51 Noida",
+                " Noida Sector 18",
+                " Sector 107 Noida",
+                " Sector 128 Noida",
+                " Sector 150 Noida",
+                "Below 70 Lakhs in Noida",
+                "Below 80 Lakhs in Noida",
+                "Below 90 Lakhs in Noida"
+              ]
+            },
+            {
+              "category2": "Properties for Sale in",
+              "locations": [
+                "Noida Extension",
+                "Sector 12 Noida",
+                "Greater Noida"
+              ]
+            }
+          ]
+        }
+      ],
   "user_sartik":[
     {
       "username" :"sartik",
