@@ -23,7 +23,7 @@ const menuButton = document.getElementById('menu');
       container.style.display = 'none'; // Hide the container
     }
   });
-
+  
   //  post your property functionality
 
   function showPopup() {
@@ -35,3 +35,4 @@ const menuButton = document.getElementById('menu');
     var popup = document.getElementById("popup");
     popup.style.display = "none";
   }
+  
