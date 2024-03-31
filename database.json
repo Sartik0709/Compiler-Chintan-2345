@@ -269,6 +269,74 @@
           ]
         }
       ],
+      "rashi_payforrent": [
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/Instacash-icon.svg",
+          "heading": "NB InstaCash",
+          "title": "Get Instant Cash upto &#8377 10 Lakhs",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/dhamaka_1.png",
+          "heading": "Cashback Dhamaka",
+          "title": "It's raining cashback! Every 100th user gets ₹100 or ₹1000 cashback",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/renter_club.svg",
+          "heading": "Renter's Club",
+          "title": "Get 50% Off on processing fees by inviting your friends",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/card.svg",
+          "heading": "Now pay Society Maintenance too",
+          "title": "All your property payments at one place - rent, maintenance, deposit, token",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/credit_card.svg",
+          "heading": "Earn upto ₹30,000/- in Rewards",
+          "title": "Earn miles and reward points on your Visa and Mastercard cards plus enjoy upto 45 days interest free credit period.",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/no_hidden_cost.svg",
+          "heading": "Earn upto ₹30,000/- in Rewards",
+          "title": "Earn miles, get cash back and reward points on every property payment with your card.",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/credit_card.svg",
+          "heading": "Pay with Credit Card",
+          "title": "We accept major cards like Visa and Mastercard so your property payment is hassle free.s",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/money.svg",
+          "heading": "Enjoy 45 days interest free credit period",
+          "title": "Depending on your card statement date",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/milestone.svg",
+          "heading": "Reach Milestones Faster",
+          "title": "Earn rewards on those yearly spends with your credit card.",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/digital_rent_receipt.svg",
+          "heading": "Digital Receipts",
+          "title": "Payment receipts are generated instantly and sent directly to your email ID. Claim your HRA with ease.",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/no_broker_trust.svg",
+          "heading": "NoBroker Trust",
+          "title": "NoBroker Pay is a product by NoBroker and is 100% secure with PCI compliant payment gateway.",
+          "link": "#"
+        }
+      ],
   "user_sartik":[
     {
       "username" :"sartik",
@@ -361,108 +429,6 @@
       "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
     }
       ],
-  "cities": [
-      {
-        "name": "Bangalore",
-        "categories": [
-          {
-            "category": "Flats for Sale",
-            "locations": [
-              "Koramangala",
-              "Marathahalli",
-              "HSR Layout",
-              "Whitefield",
-              "Indira Nagar",
-              "Bellandur",
-              "Chandra Layout",
-              "J. P. Nagar",
-              "BTM Layout",
-              "Jayanagar",
-              "Below 45 Lakhs",
-              "Below 50 Lakhs",
-              "Below 60 Lakhs",
-              "Below 70 Lakhs",
-              "Below 80 Lakhs",
-              "Below 90 Lakhs"
-            ]
-          },
-          {
-            "category": "Properties for Sale",
-            "locations": [
-              "Koramangala",
-              "Yelahanka"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Mumbai",
-        "categories": [
-          {
-            "category": "Flats for Sale",
-            "locations": [
-              "Andheri West",
-              "Andheri East",
-              "Malad West",
-              "Navi Mumbai",
-              "Powai",
-              "Thane West",
-              "Mira Road East",
-              "Kharghar",
-              "Kandivali East",
-              "Bandra West",
-              "Below 60 Lakhs",
-              "Below 70 Lakhs",
-              "Below 80 Lakhs",
-              "Below 90 Lakhs",
-              "Below 1 Cr",
-              "Below 2 Cr"
-            ]
-          },
-          {
-            "category": "Properties for Sale",
-            "locations": [
-              "Kharghar",
-              "Bandra"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Chennai",
-        "categories": [
-          {
-            "category": "Flats for Sale",
-            "locations": [
-              "Velachery",
-              "Thiruvanmiyur",
-              "Madipakkam",
-              "Thoraipakkam",
-              "Sholinganallur",
-              "Medavakkam",
-              "Mylapore",
-              "Adyar",
-              "T Nagar",
-              "Perungudi",
-              "Below 45 Lakhs",
-              "Below 50 Lakhs",
-              "Below 60 Lakhs",
-              "Below 70 Lakhs",
-              "Below 80 Lakhs",
-              "Below 90 Lakhs"
-            ]
-          },
-          {
-            "category": "Properties for Sale",
-            "locations": [
-              "Shalimar Bagh",
-              "Velachery"
-            ]
-          }
-        ]
-      }
-      ],
-
     "kunwer":[
       {
         "apartment_name":
