@@ -4,7 +4,7 @@
       "id":1,
       "data":"Post your Property"
     }
-   ],
+      ],
   "user_sartik":[
     {
       "username" :"sartik",
@@ -31,69 +31,72 @@
       "email": "sartik50@gmail.com",
       "phone-no": "1234576838"
     }
-  ],
-   "feedbacks_ashwin": [
-  {
-    "name": "John Smith",
-    "rating": 4,
-    "review": "Great Service!",
-    "feedback": "I had a great experience with Nobroker. They helped me find a wonderful apartment with all the amenities I needed. Highly recommended!"
-  },
-  {
-    "name": "Emily Johnson",
-    "rating": 3,
-    "review": "Decent Experience",
-    "feedback": "My experience with Nobroker was decent. They assisted me in finding a suitable place to live, although it took a bit longer than expected."
-  },
-  {
-    "name": "Michael Brown",
-    "rating": 5,
-    "review": "Excellent Service!",
-    "feedback": "Nobroker provided excellent service. They went above and beyond to help me find the perfect accommodation. Couldn't be happier!"
-  },
-  {
-    "name": "Jessica Williams",
-    "rating": 4,
-    "review": "Good Experience",
-    "feedback": "I had a good experience with Nobroker. They were responsive and helpful throughout the process of finding a new place to live."
-  },
-  {
-    "name": "David Wilson",
-    "rating": 3,
-    "review": "Average Service",
-    "feedback": "My experience with Nobroker was average. They were able to find me a place to stay, but it wasn't exactly what I was looking for."
-  },
-  {
-    "name": "Sarah Martinez",
-    "rating": 5,
-    "review": "Outstanding Service!",
-    "feedback": "I cannot thank Nobroker enough for their outstanding service. They made the entire process of finding a new home stress-free and enjoyable."
-  },
-  {
-    "name": "Daniel Taylor",
-    "rating": 4,
-    "review": "Very Satisfied",
-    "feedback": "I am very satisfied with the service provided by Nobroker. They helped me find a great place to live within my budget."
-  },
-  {
-    "name": "Olivia Garcia",
-    "rating": 3,
-    "review": "Fair Experience",
-    "feedback": "My experience with Nobroker was fair. They were able to find me a place to live, but there were some issues along the way."
-  },
-  {
-    "name": "James Rodriguez",
-    "rating": 5,
-    "review": "Exceptional Service!",
-    "feedback": "Nobroker provided exceptional service. They listened to my requirements and found me the perfect accommodation in no time."
-  },
-  {
-    "name": "Emma Moore",
-    "rating": 4,
-    "review": "Very Good Experience",
-    "feedback": "I had a very good experience with Nobroker. They were professional and efficient in helping me find a suitable place to live."
-  }
-],
+      ],
+  "cardData_ashwin" : [
+    {
+      "name": "Lisa Das",
+      "rating": 5,
+      "review": "It's a nice experience",
+      "description": "It was a nice experience with Nobroker. They helped me to find a new home to stay as it was difficult for me, as an individual, to find a home with friendly roommates. Thankfully Nobroker helped me to get one with all kinds of facilities.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "John Smith",
+      "rating": 4,
+      "review": "Great service!",
+      "description": "I had a great experience with Nobroker. Their service was exceptional, and they helped me find the perfect apartment in no time.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Emily Johnson",
+      "rating": 5,
+      "review": "Highly recommend!",
+      "description": "Nobroker made my apartment hunting experience so much easier. The staff was helpful and professional, and I found exactly what I was looking for.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Michael Brown",
+      "rating": 3,
+      "review": "Decent service",
+      "description": "Overall, my experience with Nobroker was decent. They provided some good options, but it took a bit longer than expected to find the right place.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Sophia Wilson",
+      "rating": 4,
+      "review": "Satisfied customer",
+      "description": "I'm a satisfied customer of Nobroker. They helped me find a comfortable and affordable place to live in a convenient location.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "David Martinez",
+      "rating": 5,
+      "review": "Excellent service!",
+      "description": "I couldn't be happier with Nobroker's service. They went above and beyond to ensure I found the perfect apartment. Highly recommended!",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Emma White",
+      "rating": 4,
+      "review": "Good experience overall",
+      "description": "My experience with Nobroker was positive. They provided me with several good options, and I eventually found a place that suited my needs.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Daniel Lee",
+      "rating": 3,
+      "review": "Could be better",
+      "description": "While Nobroker did help me find a place, I think there's room for improvement in terms of communication and efficiency.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Olivia Garcia",
+      "rating": 5,
+      "review": "Fantastic experience!",
+      "description": "Nobroker made my apartment search stress-free. They understood my requirements perfectly and found me an amazing place to live.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    }
+      ],
   "cities": [
       {
         "name": "Bangalore",
@@ -194,7 +197,7 @@
           }
         ]
       }
-    ],
+      ],
 
     "kunwer":[
       {
@@ -730,6 +733,6 @@
     "https://images.nobroker.in/images/8a9ffd848a30e74c018a31a2c9543c51/8a9ffd848a30e74c018a31a2c9543c51_487_300601_medium.jpg"
   ]
 }
-]
+      ]
   }
   
