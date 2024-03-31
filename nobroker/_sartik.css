@@ -22,10 +22,11 @@ body{
     z-index: 1;
 }
 .navw1{
-   width: 170px;
-   height: 45px;
-   margin-top: auto;
-   margin-bottom: auto;
+    /* position: relative; */
+   width:auto;
+   height: auto;
+   /* padding-top: 1rem;
+   padding-bottom: 1rem; */
    
 
 }
@@ -92,50 +93,72 @@ body{
     position: fixed;
     top: 59px;
     right: 0px;
-    border: 1px solid green ;
+    border: 1px solid rgb(203, 204, 203) ;
+    
     width: 20%;
     height:100%;
-     padding-left: 2px;
-     padding-right: 2px;
+     padding-left: 19px;
+     padding-right: 20px;
+     padding-top: 10px;
+
      z-index: 2;
       background-color: white;
 
 }
+
 #menu1>p{
      margin-top: 5px;
 
 }
+#menu1>p:hover{
+     color: blue;
+}
+#menu{
+    font-size: medium;
+}
 #chat{
-     height: 10%;
-     width: 10%;
+      height: 7%;
+      width: 9%;
       border-radius: 999rem;
       border: 2px solid;
       position: fixed;
       right: 50px;
       bottom: 50px;
-       background-color: rgb(59, 55, 55);
-       z-index: 1;
-     text-align: center;
-}
+      background-color: rgb(59, 55, 55);
+      z-index: 1;
+      text-align: center;
+   }
 #chat>p{ 
-     margin-top: 15%;
-     margin-left: auto;
-     margin-right: auto;
-     font-size:x-large;
-     color: white;
-     font-weight:bold;
-}
+       margin-top: 7%;
+       margin-left: auto;
+       margin-right: auto;
+       font-size:x-large;
+       color: white;
+       font-weight:bold;
+      }
 
 .popup {
     display: none;
     position: absolute;
-    top: 20%;
-    left: 0;
-    width: 200px;
-    background-color: lightblue;
+    top: 8%;
+    border-radius: 6px;
+    right: 10%;
+    width: 250px;
+     height: auto;
+    background-color: rgb(35, 38, 39);
+    color: white;
     padding: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+    z-index: 2;
   }
+
 a{
     text-decoration: none;
 }
+ #butto{
+    /* border:  10px solid blue; */
+     height: 70%;
+     font-size: medium;
+      border-radius: 6px;
+       border: none;
+ }
