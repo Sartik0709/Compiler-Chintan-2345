@@ -1,0 +1,973 @@
+{
+   "menu":[
+    {
+      "id":1,
+      "data":"Post your Property"
+    }
+      ],
+      "cities_rashi": [
+        {
+          "name": "Bangalore",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Koramangala",
+                " Marathahalli",
+                " HSR Layout",
+                " Whitefield",
+                " Indira Nagar",
+                " Bellandur",
+                " Chandra Layout",
+                " J. P. Nagar",
+                " BTM Layout",
+                " Jayanagar",
+                " Bangalore Below 45 Lakhs",
+                " Bangalore Below 50 Lakhs",
+                " Bangalore Below 60 Lakhs",
+                " Bangalore Below 70 Lakhs",
+                " Bangalore Below 80 Lakhs",
+                " Bangalore Below 90 Lakhs"
+              ]
+            },
+            {
+              "category2": "Properties for Sale",
+              "locations": [
+                "Koramangala",
+                "Yelahanka"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mumbai",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Andheri West",
+                " Andheri East",
+                " Malad West",
+                " Navi Mumbai",
+                " Powai",
+                " Thane West",
+                " Mira Road East",
+                " Kharghar",
+                " Kandivali East",
+                " Bandra West",
+                " Mumbai Below 60 Lakhs",
+                " Mumbai Below 70 Lakhs",
+                " Mumbai Below 80 Lakhs",
+                " Mumbai Below 90 Lakhs",
+                " Mumbai Below 1 Cr",
+                " Mumbai Below 2 Cr"
+              ]
+            },
+            {
+              "category2": "Properties for Sale",
+              "locations": [
+                "Kharghar",
+                "Bandra"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chennai",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Velachery",
+                " Thiruvanmiyur",
+                " Madipakkam",
+                " Thoraipakkam",
+                " Sholinganallur",
+                " Medavakkam",
+                " Mylapore",
+                " Adyar",
+                " T Nagar",
+                " Perungudi",
+                " Chennai Below 45 Lakhs",
+                " Chennai Below 50 Lakhs",
+                " Chennai Below 60 Lakhs",
+                " Chennai Below 70 Lakhs",
+                " Chennai Below 80 Lakhs",
+                " Chennai Below 90 Lakhs"
+              ]
+            },
+            {
+              "category2": "Properties for Sale",
+              "locations": [
+                "Shalimar Bagh",
+                "Velachery"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pune",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Wakad",
+                " Kharadi",
+                " Baner",
+                " hadapsar",
+                " Aundh",
+                " Kothrud",
+                " Pimple Saudagar",
+                " Viman Nagar",
+                " Pimpri",
+                " Hinjewadi",
+                " Below 45 Lakhs in Pune",
+                " Below 50 Lakhs in Pune",
+                " Below 60 Lakhs in Pune",
+                " Below 70 Lakhs in Pune",
+                " Below 80 Lakhs in Pune",
+                " Below 90 Lakhs in Pune"
+              ]
+            },
+            {
+              "category2": "Properties for Sale in",
+              "locations": [
+                "Hadapsar",
+                "Kondhwa"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gurgaon",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                "1 BHK Flats in Gurgaon",
+                "2 BHK Flats in Gurgaon",
+                "3 BHK Flats in Gurgaon",
+                "4 BHK Flats in Gurgaon",
+                "4+ BHK in Gurgaon",
+                "Fully Furnished Flats in Gurgaon",
+                "Semi Furnished Flats in Gurgaon",
+                "Unfurnished Flats in Gurgaon",
+                "Independent Floor for Sale in Gurgaon",
+                "Independent House for Sale in Gurgaon",
+                "Flats for Sale Below 50 Lakhs in Gurgaon",
+                "Flats for Sale Below 45 Lakhs in Gurgaon",
+                "Flats for Sale Below 60 Lakhs in Gurgaon",
+                "Flats for Sale Below 70 Lakhs in Gurgaon",
+                "Flats for Sale Below 80 Lakhs in Gurgaon",
+                "Flats for Sale Below 90 Lakhs in Gurgaon"
+              ]
+            },
+            {
+              "category2": "Properties for Sale",
+              "locations": [
+                "Sector 31",
+                "Sector 4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hyderabad",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Banjara Hills",
+                " Jubilee Hills",
+                " Madhapur",
+                " Kukatpally Housing Board Colony",
+                " Hitech City",
+                " Gachibowli",
+                " Kukatpally",
+                " Whitefields",
+                " Himayath Nagar",
+                " Sanath Nagar",
+                " Hyderabad Below 45 Lakhs",
+                " Hyderabad Below 50 Lakhs",
+                " Hyderabad Below 60 Lakhs",
+                " Hyderabad Below 70 Lakhs",
+                " Hyderabad Below 80 Lakhs",
+                " Hyderabad Below 90 Lakhs"
+              ]
+            },
+            {
+              "category2": "Properties for Sale in",
+              "locations": [
+                "Gachibowli",
+                "Kondapur"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delhi",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " vasant Vihar",
+                " Safdarjung Enclave",
+                " Hauz Khas",
+                " Greater Kailash",
+                " Coonaught Place",
+                " Gulmohar Park",
+                " Green Park Extendion",
+                " East of Kailash",
+                " Panchsheel Park",
+                " Lajpat Nagar I",
+                " Delhi Below 45 Lakhs ",
+                " Delhi Below 50 Lakhs ",
+                " Delhi Below 60 Lakhs ",
+                " Delhi Below 70 Lakhs ",
+                " Delhi Below 80 Lakhs ",
+                " Delhi Below 90 Lakhs "
+              ]
+            },
+            {
+              "category2": "Properties for Sale in",
+              "locations": [
+                "Hadapsar",
+                "Kondhwa"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Noida",
+          "categories": [
+            {
+              "category1": "Flats for Sale in",
+              "locations": [
+                " Noida Sector 62",
+                " Noida Sector 50",
+                " Noida Sector 137",
+                " Noida Sector 75",
+                " Noida Sector 76",
+                " Kendriya Vihar Sector 51 Noida",
+                " Noida Sector 18",
+                " Sector 107 Noida",
+                " Sector 128 Noida",
+                " Sector 150 Noida",
+                "Below 70 Lakhs in Noida",
+                "Below 80 Lakhs in Noida",
+                "Below 90 Lakhs in Noida"
+              ]
+            },
+            {
+              "category2": "Properties for Sale in",
+              "locations": [
+                "Noida Extension",
+                "Sector 12 Noida",
+                "Greater Noida"
+              ]
+            }
+          ]
+        }
+      ],
+      "rashi_payforrent": [
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/Instacash-icon.svg",
+          "heading": "NB InstaCash",
+          "title": "Get Instant Cash upto &#8377 10 Lakhs",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/dhamaka_1.png",
+          "heading": "Cashback Dhamaka",
+          "title": "It's raining cashback! Every 100th user gets ₹100 or ₹1000 cashback",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/renter_club.svg",
+          "heading": "Renter's Club",
+          "title": "Get 50% Off on processing fees by inviting your friends",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/card.svg",
+          "heading": "Now pay Society Maintenance too",
+          "title": "All your property payments at one place - rent, maintenance, deposit, token",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/credit_card.svg",
+          "heading": "Earn upto ₹30,000/- in Rewards",
+          "title": "Earn miles and reward points on your Visa and Mastercard cards plus enjoy upto 45 days interest free credit period.",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/no_hidden_cost.svg",
+          "heading": "Earn upto ₹30,000/- in Rewards",
+          "title": "Earn miles, get cash back and reward points on every property payment with your card.",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/credit_card.svg",
+          "heading": "Pay with Credit Card",
+          "title": "We accept major cards like Visa and Mastercard so your property payment is hassle free.s",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/money.svg",
+          "heading": "Enjoy 45 days interest free credit period",
+          "title": "Depending on your card statement date",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/milestone.svg",
+          "heading": "Reach Milestones Faster",
+          "title": "Earn rewards on those yearly spends with your credit card.",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/digital_rent_receipt.svg",
+          "heading": "Digital Receipts",
+          "title": "Payment receipts are generated instantly and sent directly to your email ID. Claim your HRA with ease.",
+          "link": "#"
+        },
+        {
+          "image": "https://www.nobroker.in/nb-new/public/RentoPay/no_broker_trust.svg",
+          "heading": "NoBroker Trust",
+          "title": "NoBroker Pay is a product by NoBroker and is 100% secure with PCI compliant payment gateway.",
+          "link": "#"
+        }
+      ],
+  "user_sartik":[
+    { 
+      "passsword":"passsword",
+      "username" :"sartik",
+      "email":"sartik@gmail.com",
+      "phone-no":"1234576789"
+    },
+    {
+      "username": "sartik1",
+      "email": "sartik1@gmail.com",
+      "passsword":"passsword1",
+      "phone-no": "1234576789"
+    },
+    {
+      "username": "sartik2",
+      "passsword":"passsword3",
+      "email": "sartik2@gmail.com",
+      "phone-no": "1234576790"
+    },
+    {
+      "username": "sartik3",
+      "passsword":"passsword4",
+      "email": "sartik3@gmail.com",
+      "phone-no": "1234576791"
+    },  
+    {
+      "username": "sartik50",
+      "passsword":"passsword5",
+      "email": "sartik50@gmail.com",
+      "phone-no": "1234576838"
+    }
+      ],
+  "cardData_ashwin" : [
+    {
+      "name": "Lisa Das",
+      "rating": 5,
+      "review": "It's a nice experience",
+      "description": "It was a nice experience with Nobroker. They helped me to find a new home to stay as it was difficult for me, as an individual, to find a home with friendly roommates. Thankfully Nobroker helped me to get one with all kinds of facilities.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "John Smith",
+      "rating": 4,
+      "review": "Great service!",
+      "description": "I had a great experience with Nobroker. Their service was exceptional, and they helped me find the perfect apartment in no time.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Emily Johnson",
+      "rating": 5,
+      "review": "Highly recommend!",
+      "description": "Nobroker made my apartment hunting experience so much easier. The staff was helpful and professional, and I found exactly what I was looking for.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Michael Brown",
+      "rating": 3,
+      "review": "Decent service",
+      "description": "Overall, my experience with Nobroker was decent. They provided some good options, but it took a bit longer than expected to find the right place.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Sophia Wilson",
+      "rating": 4,
+      "review": "Satisfied customer",
+      "description": "I'm a satisfied customer of Nobroker. They helped me find a comfortable and affordable place to live in a convenient location.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "David Martinez",
+      "rating": 5,
+      "review": "Excellent service!",
+      "description": "I couldn't be happier with Nobroker's service. They went above and beyond to ensure I found the perfect apartment. Highly recommended!",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Emma White",
+      "rating": 4,
+      "review": "Good experience overall",
+      "description": "My experience with Nobroker was positive. They provided me with several good options, and I eventually found a place that suited my needs.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Daniel Lee",
+      "rating": 3,
+      "review": "Could be better",
+      "description": "While Nobroker did help me find a place, I think there's room for improvement in terms of communication and efficiency.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    },
+    {
+      "name": "Olivia Garcia",
+      "rating": 5,
+      "review": "Fantastic experience!",
+      "description": "Nobroker made my apartment search stress-free. They understood my requirements perfectly and found me an amazing place to live.",
+      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+    }
+      ],
+    "kunwer":[
+      {
+        "apartment_name":
+          "1 RK Apartment In Ashish Residency For Sale In Uran",
+        "location": "Sankalp Soddhi, Bangalore",
+        "square_feet": "",
+        "id": 1,
+        "total_square_feet_price": 13,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "North",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Bangalore",
+        "state": "Bangalore",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/8a9fb8827e68230e017e68545e7e13ef/8a9fb8827e68230e017e68545e7e13ef_65525_396991_large.jpg"
+        ]
+      },
+      {
+        "apartment_name": "Maple Springs Apartment",
+        "location": "123 Main Street, Sunnyvale, CA",
+        "square_feet": 1000,    
+        "total_square_feet_price": 500000,
+        "per_square_feet_price": 500,
+        "emi": 2500,
+        "direction": "South",
+        "apartment_type": "2 BHK",
+        "bathroom": 2,
+        "parking": "car and bike",
+        "city": "Sunnyvale",
+        "state": "CA",
+        "property_status": "ready_to_move_in",
+        "img": [
+          "https://images.nobroker.in/images/8a9f94838bf618f2018bf6d1ad876d01/8a9f94838bf618f2018bf6d1ad876d01_18009_187259_medium.jpg",
+          "https://images.nobroker.in/images/8a9f94838bf618f2018bf6d1ad876d01/8a9f94838bf618f2018bf6d1ad876d01_18009_187259_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Apartment In Ashish Residency For Sale In Uran",
+        "id": 2,
+        "location": "Sector-47, near Akshar Edeania",
+        "square_feet": "",
+        "total_square_feet_price": 12,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "West",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Banagalore",
+        "state": "Bangalore",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/8a9f94838bf618f2018bf6d1ad876d01/8a9f94838bf618f2018bf6d1ad876d01_18009_187259_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Flat In Shivneri Building, Opp.Sunder Galli, Near Byculla Station",
+        "location": "sankalp Soddhi",
+        "id": 3,
+        "square_feet": "",
+        "total_square_feet_price": 20,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "South",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Mumbai",
+        "state": "Mumbai",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/8a9fb8827e68230e017e68545e7e13ef/8a9fb8827e68230e017e68545e7e13ef_65525_396991_large.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Apartment In Ashish Residency For Sale In Uran",
+        "location": "sankalp Soddhi",
+        "square_feet": "",
+        "id": 4,
+        "total_square_feet_price": 22,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "North",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "state": "Mumbai",
+        "property_status": "under_construction",
+        "parking": "None",
+        "city": "Mumbai",
+       "img": [
+          "https://images.nobroker.in/images/8a9f128388135018018813c45a3f57d6/8a9f128388135018018813c45a3f57d6_107426_851973_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Apartment In Ashish Residency For Sale In Uran",
+        "id": 5,
+        "location": "Sector-47, near Akshar Edeania",
+        "square_feet": "",
+        "total_square_feet_price": 23,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "West",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Mumbai",
+        "state": "Mumbai",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/ff8081816016759d01601a9cd1906ae2/ff8081816016759d01601a9cd1906ae2_16538_209724_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Flat In Shivneri Building, Opp.Sunder Galli, Near Byculla Station",
+        "location": "sankalp Soddhi",
+        "id": 6,
+        "square_feet": "",
+        "total_square_feet_price": 10,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "South",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Pune",
+        "state": "Pune",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/ff8081816016759d01601a9cd1906ae2/ff8081816016759d01601a9cd1906ae2_25562_601838_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Apartment In Ashish Residency For Sale In Uran",
+        "id": 8,
+        "location": "Sector-47, near Akshar Edeania",
+        "square_feet": "",
+        "total_square_feet_price": 32,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "West",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Chennai",
+        "state": "Chennai",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/8a9f128388135018018813c45a3f57d6/8a9f128388135018018813c45a3f57d6_971040_313744_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Flat In Shivneri Building, Opp.Sunder Galli, Near Byculla Station",
+        "location": "sankalp Soddhi",
+        "id": 9,
+        "square_feet": "",
+        "total_square_feet_price": 8,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "South",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Gurgaon",
+        "state": "Gurgaon",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/8a9f8a038e648c1d018e64a4939f0b88/8a9f8a038e648c1d018e64a4939f0b88_4029_321156_medium.jpg"
+        ]
+      },
+      {
+        "id": 15,
+        "apartment_name": "2 BHK Flat In Shiv Samarth Apartment For Sale",
+        "location": "sunder galli bus stop",
+        "square_feet": "700 sqft",
+        "total_square_feet_price": 16,
+        "per_square_feet_price": "₹14,286 per sq.ft.",
+        "emi": "₹57,314/Month",
+        "direction": "West",
+        "apartment_type": "2BHK",
+        "bathroom": 2,
+        "parking": "car and bike",
+        "city": "Pune",
+        "state": "Pune",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/8a9ff7828718de1c018719079fc918b4/8a9ff7828718de1c018719079fc918b4_88102_182556_medium.jpg"
+        ]
+      },
+      {
+        "id": 16,
+        "apartment_name": "2 BHK Flat In Shiv Samarth Apartment For Sale",
+        "location": "Sector-47, near Akshar Edeania",
+        "square_feet": "700 sqft",
+        "total_square_feet_price": 25,
+        "per_square_feet_price": "₹14,286 per sq.ft.",
+        "emi": "₹57,314/Month",
+        "direction": "South",
+        "apartment_type": "2BHK",
+        "bathroom": 1,
+        "parking": "car and bike",
+        "city": "Pune",
+        "state": "Pune",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/8a9f8a038e648c1d018e64a4939f0b88/8a9f8a038e648c1d018e64a4939f0b88_96535_810135_medium.jpg"
+        ]
+      },
+      {
+        "id": 17,
+       "apartment_name": "2 BHK Flat In Himaliya Chs For Sale",
+        "location": "sankalp Soddhi",
+        "square_feet": "700 sqft",
+        "total_square_feet_price": 17,
+        "per_square_feet_price": "₹14,286 per sq.ft.",
+        "emi": "₹57,314/Month",
+        "direction": "North",
+        "apartment_type": "2BHK",
+        "bathroom": 2,
+        "parking": "car and bike",
+        "city": "   Chennai",
+        "state": "Chennai",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/8a9f8a038e648c1d018e64a4939f0b88/8a9f8a038e648c1d018e64a4939f0b88_42205_424044_large.jpg"
+        ]
+      },
+      {
+        "id": 18,
+        "apartment_name": "2 BHK Flat In Himaliya Chs For Sale",
+        "location": "Sector-47, near Akshar Edeania",
+        "square_feet": "700 sqft",
+        "total_square_feet_price": 17,
+        "per_square_feet_price": "₹14,286 per sq.ft.",
+        "emi": "₹57,314/Month",
+        "direction": "North",
+        "apartment_type": "2BHK",
+        "bathroom": 2,
+        "parking": "car",
+        "city": "Chennai",
+        "state": "Chennai",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/8a9fce8281c8ab560181c949dced6dc7/8a9fce8281c8ab560181c949dced6dc7_300280_252988_medium.jpg"
+        ]
+      },
+      {
+        "id": 19,
+        "apartment_name": "2 BHK Flat In Shiv Samarth Apartment For Sale",
+        "location": "sunder galli bus stop",
+        "square_feet": "700 sqft",
+        "total_square_feet_price": 8,
+        "per_square_feet_price": "₹14,286 per sq.ft.",
+        "emi": "₹57,314/Month",
+        "direction": "West",
+        "apartment_type": "2BHK",
+        "bathroom": 2,
+        "parking": "car and bike",
+        "city": "Gurgaon",
+        "state": "Gurgaon",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/8a9fce8281c8ab560181c949dced6dc7/8a9fce8281c8ab560181c949dced6dc7_163706_599867_medium.jpg"
+        ]
+      },
+      {
+        "id": 20,
+        "apartment_name": "2 BHK Flat In Shiv Samarth Apartment For Sale",
+        "location": "Sector-47, near Akshar Edeania",
+        "square_feet": "700 sqft",
+        "total_square_feet_price": 10,
+        "per_square_feet_price": "₹14,286 per sq.ft.",
+        "emi": "₹57,314/Month",
+        "direction": "South",
+        "apartment_type": "2BHK",
+        "bathroom": 1,
+        "parking": "car and bike",
+        "city": "Gurgaon",
+        "state": "Gurgaon",
+        "property_status": "under_construction",
+        "img": [
+          "https://images.nobroker.in/images/8a9ff7828718de1c018719079fc918b4/8a9ff7828718de1c018719079fc918b4_52317_864187_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Apartment In Ashish Residency For Sale In Uran",
+        "location": "sankalp Soddhi",
+        "square_feet": "",
+        "id": 21,
+        "total_square_feet_price": 25,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "North",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Mumbai",
+        "state": "Mumbai",
+        "property_status": "ready",
+        "img": [
+          "https://images.nobroker.in/images/8a9ff7828718de1c018719079fc918b4/8a9ff7828718de1c018719079fc918b4_82378_452111_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Apartment In Ashish Residency For Sale In Uran",
+        "id": 22,
+        "location": "Sector-47, near Akshar Edeania",
+        "square_feet": "",
+        "total_square_feet_price": 15,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "West",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Mumbai",
+        "state": "Mumbai",
+        "property_status": "ready",
+        "img": [
+          "https://images.nobroker.in/images/ff80818151669a40015175f1cef1794c/ff80818151669a40015175f1cef1794c_63683_430119_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Flat In Shivneri Building, Opp.Sunder Galli, Near Byculla Station",
+        "location": "sankalp Soddhi",
+        "id": 23,
+        "square_feet": "",
+        "total_square_feet_price": 55,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "South",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Banagalore",
+        "state": "Banagalore",
+        "property_status": "ready",
+        "img": [
+          "https://images.nobroker.in/images/ff80818151669a40015175f1cef1794c/ff80818151669a40015175f1cef1794c_12489_186882_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Flat In Shivneri Building, Opp.Sunder Galli, Near Byculla Station",
+        "location": "sunder galli bus stop",
+        "square_feet": "",
+        "id": 25,
+        "total_square_feet_price": 66,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "South",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Pune",
+        "state": "Pune",
+        "property_status": "ready",
+        "img": [
+          "https://images.nobroker.in/images/8a9f9f838b7bc9b8018b7dc5eed704a1/8a9f9f838b7bc9b8018b7dc5eed704a1_23309_906278_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Apartment In Ashish Residency For Sale In Uran",
+        "location": "sankalp Soddhi",
+        "square_feet": "",
+        "id": 26,
+        "total_square_feet_price": 18,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "North",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Chennai",
+        "state": "Chennai",
+        "property_status": "ready",
+        "img": [
+          "https://images.nobroker.in/images/8a9f9f838b7bc9b8018b7dc5eed704a1/8a9f9f838b7bc9b8018b7dc5eed704a1_23309_906278_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Flat In Shivneri Building, Opp.Sunder Galli, Near Byculla Station",
+        "location": "sankalp Soddhi",
+        "id": 28,
+        "square_feet": "",
+        "total_square_feet_price": 62,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "South",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Chennai",
+        "state": "Chennai",
+        "property_status": "ready",
+        "img": [
+          "https://images.nobroker.in/images/8a9ffd848a30e74c018a31a2c9543c51/8a9ffd848a30e74c018a31a2c9543c51_81514_834836_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Flat In Ashirwad Bldg For Sale In Byculla West, Chinchpokli",
+        "location": "sunder galli bus stop",
+        "square_feet": "",
+        "id": 29,
+        "total_square_feet_price": 54,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "South",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Gurgaon",
+        "state": "Gurgaon",
+        "property_status": "ready",
+        "img": [
+          "https://images.nobroker.in/images/8a9ffd848a30e74c018a31a2c9543c51/8a9ffd848a30e74c018a31a2c9543c51_85934_33770_medium.jpg"
+        ]
+      },
+      {
+        "apartment_name":
+          "1 RK Apartment In Ashish Residency For Sale In Uran",
+        "location": "sunder galli bus stop",
+        "square_feet": "",
+        "id": 30,
+        "total_square_feet_price": 45,
+        "per_square_feet_price": "₹5,412 per sq.ft.",
+        "emi": "₹13,182/Month",
+        "direction": "North",
+        "apartment_type": "1 RK",
+        "bathroom": 1,
+        "parking": "None",
+        "city": "Gurgaon",
+        "state": "Gurgaon",
+        "property_status": "ready",
+        "img": [
+          "https://images.nobroker.in/images/8a9ffd848a30e74c018a31a2c9543c51/8a9ffd848a30e74c018a31a2c9543c51_487_300601_medium.jpg"
+        ]
+      }
+      ,{
+  "apartment_name":
+    "1 RK Flat In Ashirwad Bldg For Sale In Byculla West, Chinchpokli",
+  "location": "sunder galli bus stop",
+  "square_feet": "",
+  "id": 29,
+  "total_square_feet_price": 54,
+  "per_square_feet_price": "₹5,412 per sq.ft.",
+  "emi": "₹13,182/Month",
+  "direction": "South",
+  "apartment_type": "1 RK",
+  "bathroom": 1,
+  "parking": "None",
+  "city": "Gurgaon",
+  "state": "Gurgaon",
+  "property_status": "ready",
+  "img": [
+    "https://images.nobroker.in/images/8a9ffd848a30e74c018a31a2c9543c51/8a9ffd848a30e74c018a31a2c9543c51_85934_33770_medium.jpg"
+  ]
+      },
+      {
+  "apartment_name":
+    "1 RK Apartment In Ashish Residency For Sale In Uran",
+  "location": "sunder galli bus stop",
+  "square_feet": "",
+  "id": 30,
+  "total_square_feet_price": 45,
+  "per_square_feet_price": "₹5,412 per sq.ft.",
+  "emi": "₹13,182/Month",
+  "direction": "North",
+  "apartment_type": "1 RK",
+  "bathroom": 1,
+  "parking": "None",
+  "city": "Gurgaon",
+  "state": "Gurgaon",
+  "property_status": "ready",
+  "img": [
+    "https://images.nobroker.in/images/8a9ffd848a30e74c018a31a2c9543c51/8a9ffd848a30e74c018a31a2c9543c51_487_300601_medium.jpg"
+  ]
+  },
+  {
+  "apartment_name":
+    "1 RK Flat In Ashirwad Bldg For Sale In Byculla West, Chinchpokli",
+  "location": "sunder galli bus stop",
+  "square_feet": "",
+  "id": 29,
+  "total_square_feet_price": 54,
+  "per_square_feet_price": "₹5,412 per sq.ft.",
+  "emi": "₹13,182/Month",
+  "direction": "South",
+  "apartment_type": "1 RK",
+  "bathroom": 1,
+  "parking": "None",
+  "city": "Gurgaon",
+  "state": "Gurgaon",
+  "property_status": "ready",
+  "img": [
+    "https://images.nobroker.in/images/8a9ffd848a30e74c018a31a2c9543c51/8a9ffd848a30e74c018a31a2c9543c51_85934_33770_medium.jpg"
+  ]
+},
+{
+  "apartment_name":
+    "1 RK Apartment In Ashish Residency For Sale In Uran",
+  "location": "sunder galli bus stop",
+  "square_feet": "",
+  "id": 30,
+  "total_square_feet_price": 45,
+  "per_square_feet_price": "₹5,412 per sq.ft.",
+  "emi": "₹13,182/Month",
+  "direction": "North",
+  "apartment_type": "1 RK",
+  "bathroom": 1,
+  "parking": "None",
+  "city": "Gurgaon",
+  "state": "Gurgaon",
+  "property_status": "ready",
+  "img": [
+    "https://images.nobroker.in/images/8a9ffd848a30e74c018a31a2c9543c51/8a9ffd848a30e74c018a31a2c9543c51_487_300601_medium.jpg"
+  ]
+}
+      ]
+  }
+  

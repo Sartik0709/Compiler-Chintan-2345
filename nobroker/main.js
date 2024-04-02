@@ -1,126 +1,125 @@
-let hr=document.createElement("hr")
-let navy_con=document.querySelector(".navy")
-let h2=document.createElement("h2");
-h2.innerText="NoBroker services";
-navy_con.append(hr,h2);
-h2.classList.add("high");
-//carousel
+// async function fetchsartik(url) {
+//     try {
+//         let res = await fetch(url);
+//         let data = await res.json();
+//         console.log(data);
+//         appendData(data)
 
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
-function generateCard(card) {
-    return `
-    <div class="card">
-      <img class="image" src="${card.image}" alt="${card.name}'s Image">
-      <div class="name">${card.name}</div>
-      <div class="rating">${'★'.repeat(card.rating)}</div>
-      <div class="review">"${card.review}"</div>
-      <div class="description">${card.description}</div>
-    </div>
-  `;
+// fetchdatasartik("http://localhost:3000/menu");
+
+// menu  functionality
+const menuButton = document.getElementById('menu');
+  const container = document.getElementById('menu1');
+
+  menuButton.addEventListener('click', function() {
+    if (container.style.display === 'none') {
+      container.style.display = 'block'; // Show the container
+    } else {
+      container.style.display = 'none'; // Hide the container
+    }
+  });
+  
+  //  post your property functionality
+
+  function showPopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "block";
   }
-  const cardData = [
-    {
-      "name": "Lisa Das",
-      "rating": 5,
-      "review": "It's a nice experience",
-      "description": "It was a nice experience with Nobroker. They helped me to find a new home to stay as it was difficult for me, as an individual, to find a home with friendly roommates. Thankfully Nobroker helped me to get one with all kinds of facilities.",
-      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
-    },
-    {
-      "name": "John Smith",
-      "rating": 4,
-      "review": "Great service!",
-      "description": "I had a great experience with Nobroker. Their service was exceptional, and they helped me find the perfect apartment in no time.",
-      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
-    },
-    {
-      "name": "Emily Johnson",
-      "rating": 5,
-      "review": "Highly recommend!",
-      "description": "Nobroker made my apartment hunting experience so much easier. The staff was helpful and professional, and I found exactly what I was looking for.",
-      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
-    },
-    {
-      "name": "Michael Brown",
-      "rating": 3,
-      "review": "Decent service",
-      "description": "Overall, my experience with Nobroker was decent. They provided some good options, but it took a bit longer than expected to find the right place.",
-      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
-    },
-    {
-      "name": "Sophia Wilson",
-      "rating": 4,
-      "review": "Satisfied customer",
-      "description": "I'm a satisfied customer of Nobroker. They helped me find a comfortable and affordable place to live in a convenient location.",
-      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
-    },
-    {
-      "name": "David Martinez",
-      "rating": 5,
-      "review": "Excellent service!",
-      "description": "I couldn't be happier with Nobroker's service. They went above and beyond to ensure I found the perfect apartment. Highly recommended!",
-      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
-    },
-    {
-      "name": "Emma White",
-      "rating": 4,
-      "review": "Good experience overall",
-      "description": "My experience with Nobroker was positive. They provided me with several good options, and I eventually found a place that suited my needs.",
-      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
-    },
-    {
-      "name": "Daniel Lee",
-      "rating": 3,
-      "review": "Could be better",
-      "description": "While Nobroker did help me find a place, I think there's room for improvement in terms of communication and efficiency.",
-      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
-    },
-    {
-      "name": "Olivia Garcia",
-      "rating": 5,
-      "review": "Fantastic experience!",
-      "description": "Nobroker made my apartment search stress-free. They understood my requirements perfectly and found me an amazing place to live.",
-      "image": "https://assets.nobroker.in/images/testimonials/ff8081815185752901518659f9cc12da.jpg"
+
+  function hidePopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "none";
+  }
+  
+  // login 
+  let login= document.getElementById('login');
+  let cont= document.getElementById('container');
+  let loginbut =document.getElementById('login1');
+  let close=document.getElementById('close');
+  
+  loginbut.addEventListener('click', function() {
+    
+      login.style.display = 'block'; // Show the container
+  
+  });
+
+  //close login button
+  close.addEventListener('click', function() {
+    login.style.display = 'none';
+  });
+
+  // check the login credintials 
+  const userInputField = document.getElementById('userInput');
+  const additionalInputsDiv = document.getElementById('additionalInputs');
+  const passwordContainerDiv = document.getElementById('passwordContainer');
+  const checkButton = document.getElementById('checkButton');
+  
+  const apiUrl = 'https://compiler-chintan-2345.onrender.com/user_sartik';
+  
+  checkButton.addEventListener('click', async () => {
+    const userInput = userInputField.value.trim();
+  
+    if (!userInput) {
+      alert('Please enter a phone number to check.');
+      return;
     }
-  ]
-  const container = document.querySelector('.card-container');
-  const allCardsHTML = cardData.map(generateCard).join('');
-  container.innerHTML = allCardsHTML;
-  let slideIndex = 0;
-  const cards = document.querySelectorAll('.card');
-  showSlides();
-  function showSlides() {
-    for (let i = 0; i < cards.length; i++) {
-      cards[i].style.display = "none";
-    }
-    for (let i = slideIndex; i < slideIndex + 3; i++) {
-      if (i < cards.length) {
-        cards[i].style.display = "block";
+  
+    try {
+      const response = await fetch(apiUrl);
+      if (!response.ok) {
+        throw new Error(`API request failed with status: ${response.status}`);
       }
-    }
-  }
   
-  function prevSlide() {
-    if (slideIndex > 0) {
-      slideIndex -= 3;
-    }
-    else {
-      slideIndex = Math.floor(cards.length / 3) * 3;
-    }
-    showSlides();
-  }
+      const data = await response.json();
   
+      let isPhoneNoPresent = false;
   
-  function nextSlide() {
-    if (slideIndex < cards.length - 3) {
-      slideIndex += 3;
-    }
-    else {
-      slideIndex = 0;
-    }
-    showSlides();
-  }
+      for (const user of data) {
+        if (user['phone-no'] === userInput) {
+          isPhoneNoPresent = true;
+          passwordContainerDiv.style.display = 'block'; // Show password field
+          break;
+        }
+      }
   
-
-
-
+      if (!isPhoneNoPresent) {
+        additionalInputsDiv.style.display = 'block'; 
+        // additionalInputsDiv.style.justifyContent = 'space-between';// Show add. input boxes
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('An error occurred while checking data.');
+    }
+  
+    // Password handling if phone number exists
+    if (isPhoneNoPresent) {
+      const passwordInputField = document.getElementById('passwordInput');
+  
+      checkButton.addEventListener('click', async () => {
+        const enteredPassword = passwordInputField.value.trim();
+        if (!enteredPassword) {
+          alert('Please enter your password.');
+          return;
+        }
+  
+        // Simulate sending password to server for validation (replace with actual API call)
+        const validationResponse = await fetch(apiUrl, {
+          method: 'POST', // Use POST for sending data
+          body: JSON.stringify({ phoneNo: userInput, password: enteredPassword }),
+        });
+  
+        if (validationResponse.ok) {
+          // Password validated successfully, redirect to homepage
+          window.location.href = 'your_homepage_url';
+        } else {
+          alert('Invalid password. Please try again.');
+        }
+      });
+    }
+  });
+  
