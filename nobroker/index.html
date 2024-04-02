@@ -10,23 +10,35 @@
 
 <body>
     <div id="container">
-        <div id="nav">
+        <!-- <div id="nav">
          <div id="logo" > <img src="https://assets.nobroker.in/static/img/logos/nb_logo_new_trans.svg" alt=""></div>
          <div id="navr">
+             <div id="r1">
              <div class="navw1 d-flex border"><img src="https://assets.nobroker.in/nb-new/public/payrent.png" alt=""> <a href="payrent.html" target="_blank"> <span class="left">Pay Rent</span></a></div>
              
-             <button class="height" id="butto" onmouseover="showPopup()" onmouseout="hidePopup()"><a href="propertyonwer.html" style="color: white; ">Post Your Property</a></button>
-             
-             <!-- login/sign up and menu container  -->
-             <div class="d-flex hh">
+             <button class="height" id="butto" onmouseover="showPopup()" onmouseout="hidePopup()"><a href="propertyonwer.html" style="color: white; " target="_blank" >Post Your Property</a></button>
+            </div>
+                         
                 <div class="h-37" id="sup"> Sign up</div>
-                <div class="h-37 left sup1" style="box-sizing: border-box;" > <a href="login.html" target="_blank">Log in</a></div>
+                <div class="h-37 left sup1" style="box-sizing: border-box;" id="login1" > Log in</div>
                 <button class="left h-37 d-flex sup1" id="menu" > <img src="https://assets.nobroker.in/nb-new/public/hamburger-menu.svg" alt="" style=" margin-right: 8px;"> Menu </button> 
-         
+                     
              </div>
-             
+        </div> -->
+          <div id="nav">
+            <div id="logo" > <img src="https://assets.nobroker.in/static/img/logos/nb_logo_new_trans.svg" alt=""></div>
+             <div id="right">
+                <div id="right1"> 
+                    <button ><img src="https://assets.nobroker.in/nb-new/public/payrent.png" alt="" > <a href="payrent.html" target="_blank">Pay Rent</a></button>
+                    <button class="height " id="butto" onmouseover="showPopup()" onmouseout="hidePopup()" style="padding-top: 6px; padding-bottom: 6px;"><a href="propertyonwer.html" style="color: white; " target="_blank" >Post Your Property</a></button>
+                </div>
+                <div class="height-27" style=" padding-top: 10px;"> Sign up</div>
+                <div id="login1" class="l-border height-27" style="padding-left: 8px; align-items: center; padding-top: 10px;" >login</div>
+                <div id="menu"  class="l-border height-27" style="display: flex; align-items: center;"><img src="https://assets.nobroker.in/nb-new/public/hamburger-menu.svg" alt="" style="margin-right: 8px; margin-left: 8px;">Menu</div>
              </div>
         </div>
+
+
         <div id="menu1">
              <p>Post Your Property</p>
              <hr>
@@ -61,6 +73,39 @@
          <div class="popup" id="popup">
             Owners!Click here if you wish to list your appartment on rent/sale
             
+             </div>
+             <div id="login">
+                <div id="boxn1" >
+                    <div class="l1">
+                        <img src="signupHome.png" alt="">
+                       <div>       
+                        <h3>Login / Sign up</h3>
+                        <p>Zero Brokrage.</p>
+                        <p>Thounsands of new listing daily.</p>
+                        <p>100 Cr+ Brokrage saved monthly</p>
+                       </div>
+                    </div>
+                    <div class="l2">
+                        <div id="close">close</div>
+                         <h2 style="margin-left: 15%;">Enter Phone to continue</h2>
+                         <div class="container-column">
+                            <input type="text" id="userInput" placeholder="Enter phone number"  class="inpute">
+                            
+                            <div id="additionalInputs" class="additional-inputs">
+                              
+                              <input type="text" id="nameInput" placeholder="Name" class="inpute1">
+                              
+                              <input type="email" id="emailInput" placeholder="Enter your email like name@gmail.com" class="inpute1">
+                            </div>
+                            <div id="passwordContainer" class="password-container">
+                              <!-- <label for="passwordInput">Password:</label> <br> -->
+                              <input type="password" id="passwordInput" placeholder="Enter password" class="inpute2">
+                            </div>
+                            <button id="checkButton">Check</button>
+                          </div>
+                          <p style=" font-size: small; padding-left: 10%;"> By continuing, you are agree to our <span style="font-weight: bolder; font-st;">Term & condition</span></p>
+                    </div>
+                    </div>
              </div>
     </div>
 </body>
