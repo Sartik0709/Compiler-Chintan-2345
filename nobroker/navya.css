@@ -23,7 +23,7 @@ body{
 }
 
 .inn>button,
-a {
+.inn a ,.navya_foot a{
     background-color: #E8E8E8;
     border: none;
     font-size: 13px;
@@ -34,10 +34,10 @@ a {
 
 }
 .inn>button:hover,
-a:hover {
+.inn a:hover .navya_foot a:hover {
    cursor: pointer;
 }
-a:hover{
+.inn a:hover .navya_foot a:hover{
     color: #E8E8E8;
 }
 
