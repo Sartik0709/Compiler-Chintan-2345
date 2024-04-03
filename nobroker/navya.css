@@ -23,8 +23,13 @@ body{
 }
 
 .inn>button,
+<<<<<<< HEAD
+a {
+    /* background-color: #E8E8E8; */
+=======
 .inn a ,.navya_foot a{
     background-color: #E8E8E8;
+>>>>>>> a179a5425052fa48f3eff592f54ddb39772078ff
     border: none;
     font-size: 13px;
     height: 27px;
@@ -46,10 +51,6 @@ body{
     margin-top: -20px;
    
     flex-direction: column;
-
-
-
-
 }
 
 .ne1 {
