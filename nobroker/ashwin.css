@@ -1,7 +1,8 @@
 .container_Ashwin {
     padding: 0px;
     width: 100vw;
-    margin: 0px;
+   
+    /* margin: 0px; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -336,6 +337,11 @@ iframe {
     justify-content: center;
     align-items: center;
 }
+.ashwin-description{
+    text-decoration:none;
+    color: #464646;
+    font-size: 13pt;
+}
 
 .Testimonials a {
     color: white;
@@ -346,25 +352,17 @@ iframe {
     #nobroker {
         display: none;
     }
-}
-
-@media (max-width: 570px) {
     .my_mid {
         display: none;
     }
-}
-
-@media (max-width: 570px) {
     .my_section {
         display: none;
     }
-}
-
-@media (max-width: 570px) {
     .mobile {
         display: none;
     }
 }
+
 
 @media (max-width: 935px) {
     .container_card {

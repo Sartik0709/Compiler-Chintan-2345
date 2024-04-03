@@ -7,8 +7,7 @@ body{
     margin-bottom: auto;
     background-color: white;
     width:auto;
-    height: 60px;
-
+    height: 61px;
     padding:5px;
      padding-right: 15px;
     display:  flex;
@@ -288,8 +287,6 @@ a{
     flex-direction: column;
     top:100%;
     right:2%;
-    z-index: 2;
-     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
     width: 15%;
@@ -303,7 +300,11 @@ a{
 #logout>p:hover{
     color: rgb(118, 202, 202);
 }
-
+#container{
+    width: 100vw;
+     margin-left: auto;
+     margin-right: auto;
+}
 @media(max-width:990px){
     #right{
         display: none;
@@ -315,17 +316,13 @@ a{
     #logo{
          justify-content: center;
     }
-    #container{
-         margin-left: auto;
-         margin-right: auto;
-    }
 }
-@media(max-width:2000px){
+/* @media(max-width:2000px){
     #container{
-        max-width:900px;
+        max-width:900px; */
         /* margin-left: auto;
         margin-right: auto; */
-   }
+   /* } */
    /* #nav{
      max-width:1320px;
      margin-left: auto;
@@ -334,5 +331,4 @@ a{
     justify-content: center;
 } */
 
-}
-
+/* } */

@@ -158,7 +158,6 @@ h3_2.addEventListener("click", () => {
                 });
 
             });
-
         }
         catch (error) {
             console.log("error");

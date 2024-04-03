@@ -1,10 +1,11 @@
-.container {
+.container-kunwer {
     display: flex;
     align-items: center;
     position: relative;
     left: 600px;
     background-color: rgb(254, 240, 218);
     width: 300px;
+
     padding: 20px;
     gap: 5px;
 }
@@ -13,9 +14,6 @@
     display: flex;
     align-items: center;
 }
-
-
-
 .divider {
     margin: 0;
 }
@@ -184,24 +182,27 @@ h1 {
     justify-content: space-evenly;
     margin-top: 60px;
 }
-
+/* 
 .active {
     color: red;
     text-decoration: underline;
-}
+} */
 
 #kunwar_container {
     width: 100vw;
-    margin-top: 120px;
+    /* margin-top: 50px; */
+     padding-top:50px;
     border: 1px solid;
-
-}
-#rent1{
-    display: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 #kunwar_buy{
     display: block;
 }
-#commercial{
+#rent1{
     display: none;
 }
+#commercial1{
+    display: none;
+}
+

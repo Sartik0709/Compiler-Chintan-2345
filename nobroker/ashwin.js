@@ -16,7 +16,7 @@ async function fetchData(url) {
         console.log(error);
     }
 }
-fetchData(`http://localhost:3000/card_Data`);
+fetchData(`https://compiler-chintan-2345.onrender.com/cardData_ashwin`);
 
 function createCard(item) {
     let card = document.createElement("div");
@@ -30,6 +30,7 @@ function createCard(item) {
     name.innerText = item.name;
     name.className = "name";
 
+
     let rating = document.createElement("p");
     rating.className = "rating";
     rating.innerText = `${'★'.repeat(item.rating)}`;
@@ -40,6 +41,7 @@ function createCard(item) {
 
     let description = document.createElement("p")
     description.innerText = `"${item.description}"`;
+    description.className="ashwin-description"
 
     let flexImgName = document.createElement("div");
     flexImgName.className = "flexImgName";
