@@ -24,7 +24,7 @@ body{
 
 .inn>button,
 a {
-    background-color: #E8E8E8;
+    /* background-color: #E8E8E8; */
     border: none;
     font-size: 13px;
     height: 27px;
@@ -46,10 +46,6 @@ a:hover{
     margin-top: -20px;
     /* border: 2px solid; */
     flex-direction: column;
-
-
-
-
 }
 
 .ne1 {
