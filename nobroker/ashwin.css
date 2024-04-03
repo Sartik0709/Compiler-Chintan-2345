@@ -1,0 +1,382 @@
+.container {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image_inside {
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.img1 {
+    margin-bottom: 20px;
+}
+
+.img1 img {
+    height: 50px;
+    width: 50px;
+}
+
+.img1 img:hover {
+    transform: scale(2, 2);
+}
+
+h4,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.image_inside h4 {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #787676;
+}
+
+.image_inside p {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #787676;
+}
+
+#nobroker {
+    padding: 40px 0px;
+    width: 100vw;
+    height: 388px;
+    background-color: #F4F4F4;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    flex: 1;
+    border-bottom: 1px solid #787676;
+    width: 362px;
+
+}
+
+.ball {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #F7C7CE;
+    border-radius: 50%;
+}
+
+.make_d h3 {
+    color: #787676;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#para {
+    margin: 0px 0px 0px 120px;
+    padding: 40px 0px 0px 0px;
+}
+
+.imgDiv {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    height: 220px;
+    width: 306px;
+}
+
+button {
+    background-color: #FD3752;
+    padding: 10px 20px;
+    border: none;
+    color: #FFFFF4;
+}
+
+.paraText {
+    color: #787676;
+    font-size: 18px;
+}
+
+.call {
+    color: #787676;
+    font-size: 14px;
+}
+
+.my_mid {
+    padding: 40px 0px;
+    width: 100vw;
+    height: 386px;
+    background-color: #FFFFFF;
+}
+
+.line_2 {
+    flex: 1;
+    border-bottom: 1px solid #787676;
+    width: 400px;
+
+}
+
+.main_circle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.all_circle {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.circle {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    margin: 0px 0px 15px;
+    border: 2px solid #FD3752;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #FD3752;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.all_circle>p {
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #464646;
+
+}
+
+.my_section {
+    height: 833px;
+    width: 100vw;
+    background-color: #334A5C;
+    padding: 40px;
+}
+
+.video_para {
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.video {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    height: 300px;
+    width: 600px;
+}
+
+.mobile {
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+
+.two_img {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.g_image {
+    height: 50px;
+    width: 150px;
+    margin: 50px 0px;
+
+}
+
+.mobile_img img {
+    height: 355px;
+    width: 306px;
+
+
+}
+
+.google_img h2 {
+    color: #FD4052;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+.google_img h3 {
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.google_img h3 {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.container_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.card {
+    margin: 0 10px;
+    padding: 20px;
+    max-width: 350px; /* Limit maximum width of the card */
+    width: 100%; /* Occupy full width */
+    display: none;
+    background-color: #F3F3F3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+.card.active {
+    display: block;
+}
+
+.card-image {
+    margin: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.name {
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.rating {
+    color: #008387;
+    font-size: 16px;
+}
+
+
+.review {
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #464646;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.description {
+    font-size: 14px;
+    color: #464646;
+}
+.arrow {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.left {
+    transform: rotate(180deg);
+}
+
+.button {
+    background-color: #787676;
+    border: none;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.frame {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Snap cards to the viewport */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+}
+
+.frame::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+.flexImgName{
+    display: flex;
+    gap: 20px;
+
+}
+hr{
+    margin-top: 50px;
+}
+.Testimonials {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Testimonials a {
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 570px) {
+    #nobroker {
+        display: none;
+    }
+}
+
+@media (max-width: 570px) {
+    .my_mid {
+        display: none;
+    }
+}
+
+@media (max-width: 570px) {
+    .my_section {
+        display: none;
+    }
+}
+
+@media (max-width: 570px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 935px) {
+    .container_card {
+        display: none;
+    }
+    .my_section {
+        height: fit-content;
+        width: 100vw;
+        background-color: #334A5C;
+        padding: 40px;
+    }
+}
