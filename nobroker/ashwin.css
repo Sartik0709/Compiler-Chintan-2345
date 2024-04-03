@@ -1,5 +1,6 @@
-.container {
+.container_Ashwin {
     padding: 0px;
+    width: 100vw;
     margin: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -36,8 +37,7 @@
     transform: scale(2, 2);
 }
 
-h4,
-p {
+.image_h4p{
     margin: 0px;
     padding: 0px;
 }
@@ -54,7 +54,7 @@ p {
     color: #787676;
 }
 
-#nobroker {
+#nobroker_Ashwin {
     padding: 40px 0px;
     width: 100vw;
     height: 388px;
@@ -88,12 +88,6 @@ p {
     margin-left: 100px;
     margin-right: 100px;
 }
-
-#para {
-    margin: 0px 0px 0px 120px;
-    padding: 40px 0px 0px 0px;
-}
-
 .imgDiv {
 
     display: flex;
@@ -101,13 +95,16 @@ p {
     align-items: center;
 
 }
-
-img {
+#para {
+    margin: 0px 0px 0px 120px;
+    padding: 40px 0px 0px 0px;
+}
+.build_img{
     height: 220px;
     width: 306px;
 }
 
-button {
+.enquire_Btn{
     background-color: #FD3752;
     padding: 10px 20px;
     border: none;
@@ -179,10 +176,11 @@ button {
 }
 
 .my_section {
-    height: 833px;
+    height: auto;
     width: 100vw;
     background-color: #334A5C;
     padding: 40px;
+   
 }
 
 .video_para {
@@ -215,7 +213,6 @@ iframe {
 
 
 .two_img {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -261,11 +258,11 @@ iframe {
 .card {
     margin: 0 10px;
     padding: 20px;
-    max-width: 350px; /* Limit maximum width of the card */
-    width: 100%; /* Occupy full width */
+    max-width: 350px;
+    width: 100%; 
     display: none;
     background-color: #F3F3F3;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 .card.active {
     display: block;
@@ -317,20 +314,20 @@ iframe {
 }
 .frame {
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Snap cards to the viewport */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch;
 }
 
 .frame::-webkit-scrollbar {
-    display: none; /* Hide scrollbar */
+    display: none; 
 }
 .flexImgName{
     display: flex;
     gap: 20px;
 
 }
-hr{
+.ashwin_hr{
     margin-top: 50px;
 }
 .Testimonials {
