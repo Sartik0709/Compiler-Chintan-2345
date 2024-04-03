@@ -4,8 +4,9 @@
     position: relative;
     left: 600px;
     background-color: rgb(254,240,218);
-    width: 280px;
+    width: 300px;
     padding: 20px;
+    gap: 5px;
   }
   
   .item {
@@ -54,6 +55,15 @@
     font-weight: 700;
     font-size: 17px;
   }
+  #buy:hover{
+     color: red;
+  }
+  #rent:hover{
+    color: red;
+ }
+ #commercial:hover{
+  color: red;
+}
 
   .search-section{
     position: relative;
@@ -62,6 +72,9 @@
   #city-select{
      padding: 10px;
      color:rgb(120,118,127) ;
+     margin: -5px;
+     width: 150px;
+     
   }
   #site-search{
     padding: 10px;
@@ -83,10 +96,10 @@
   }
   .check-boxsection{
     position: relative;
-    left: 400px;
+    left: 393px;
     padding: 10px;
     border: 1px solid;
-    width: 750px;
+    width: 782px;
   }
   #BHK{
     padding: 8px;
