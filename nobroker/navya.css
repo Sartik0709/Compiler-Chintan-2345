@@ -23,8 +23,13 @@ body{
 }
 
 .inn>button,
+<<<<<<< HEAD
 a {
     /* background-color: #E8E8E8; */
+=======
+.inn a ,.navya_foot a{
+    background-color: #E8E8E8;
+>>>>>>> a179a5425052fa48f3eff592f54ddb39772078ff
     border: none;
     font-size: 13px;
     height: 27px;
@@ -34,10 +39,10 @@ a {
 
 }
 .inn>button:hover,
-a:hover {
+.inn a:hover .navya_foot a:hover {
    cursor: pointer;
 }
-a:hover{
+.inn a:hover .navya_foot a:hover{
     color: #E8E8E8;
 }
 
