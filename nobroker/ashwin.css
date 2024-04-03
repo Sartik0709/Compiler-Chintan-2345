@@ -176,10 +176,11 @@
 }
 
 .my_section {
-    height: 833px;
+    height: auto;
     width: 100vw;
     background-color: #334A5C;
     padding: 40px;
+   
 }
 
 .video_para {
