@@ -7,7 +7,8 @@ body{
     margin-bottom: auto;
     background-color: white;
     width:auto;
-    height: 61px;
+    height: 60px;
+
     padding:5px;
      padding-right: 15px;
     display:  flex;
@@ -287,6 +288,8 @@ a{
     flex-direction: column;
     top:100%;
     right:2%;
+    z-index: 2;
+     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
     width: 15%;

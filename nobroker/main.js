@@ -59,7 +59,7 @@ const additionalInputsDiv = document.getElementById('additionalInputs');
 const passwordContainerDiv = document.getElementById('passwordContainer');
 const checkButton = document.getElementById('checkButton');
 let buttons1=document.getElementById('button-Signlogin')
-let accountlogin=document.createElement('account-login');
+let accountlogin=document.getElementById('account-login');
 
 const apiUrl = 'https://compiler-chintan-2345.onrender.com/user_sartik';
 
@@ -154,7 +154,7 @@ checkButton.addEventListener('click', async () => {
           accountlogin.style.display='block';
         }
      else{
-      buttons1.style.display='flex';
+      buttons1.style.display='block';
       accountlogin.style.display='none';
       }
       
@@ -171,10 +171,10 @@ checkButton.addEventListener('click', async () => {
           logout .style.display = 'none'; // Hide the container
         }
       });
-     const signout=document.getElementById('Signout');
+     let signout=document.getElementById('Signout');
       
         signout.addEventListener('click', function() {
-          accountlogin.style.display='none';
+        accountlogin.style.display='none';
         console.log("remove");
         logout.style.display = 'none';
         buttons1.style.display='flex';
