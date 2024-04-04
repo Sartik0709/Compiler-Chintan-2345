@@ -1,15 +1,34 @@
 ###-Compiler-Chintan-2345	
 
 ## Introduction
-This project is a clone of the homepage of NoBrokerServices,NoBroker is a Bangalore-based brokerage-free proptech company that provides all sorts of real estate services under a marketplace, which includes buying, renting, packers & movers, and housekeeping. This project aims to recreate the visual layout and design of the original website's homepage.
+This project is a clone of the homepage of NoBrokerServices(https://www.nobroker.in),NoBroker is a Bangalore-based brokerage-free proptech company that provides all sorts of real estate services under a marketplace, which includes buying, renting, packers & movers, and housekeeping. This project aims to recreate the visual layout and design and functionality of the original website's homepage.
+
 
 ## Project Type
-Frontend | Backend | Fullstack
+Frontend | Backend 
 
 ## Deplolyed App
 Frontend: https://deployed-site.whatever
 Backend: https://deployed-site.whatever
 Database: https://deployed-site.whatever
+
+## Team Name :- Compiler-Chintan-2345
+
+<hr style="border: 1px solid black">
+
+### Team members:-
+
+1- Sartik (ft31_054)
+
+2- Jagannath Gari Navya 
+
+3- Kunwar Prakash Singh
+
+4- Rashi Chourasiya
+
+5- Ashwin Dhanraj Bhagat
+
+<hr style="border: 4px solid black">
 
 ## Directory Structure
 my-app/
@@ -33,6 +52,7 @@ Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
 List out the key features of your application.
 
 - Sticky Navbar: while scrolling the navbar sticks at the top of the view height.
+- login: user can login to website. and the username is displayed on the navigation bar
 -Data Fetching and Display: Use JavaScript to fetch data from APIs or databases and dynamically display it on our website. This could include fetching an, product listings, user profiles, etc.
 -Responsive Design: our website is responsive and works well on various devices and screen sizes is essential to providing a good user experience.
 
@@ -63,8 +83,9 @@ Property owners can list their properties on the application and give precise da
 Include screenshots as necessary.
 
 ## Credentials
-Provide user credentials for autheticated pages
-
+For login use  the following credentials:
+-Phone no: 1234576789;
+-Password: passsword;
 ## APIs Used
 If your application relies on external APIs, document them and include any necessary links or references.
 
@@ -77,7 +98,7 @@ POST /api/items - create a new item
 ## Technology Stack
 List and provide a brief overview of the technologies used in the project.
 
-- Java Script
 - HTML
 - CSS
-  
+- JavaScript
+- JSON Server
