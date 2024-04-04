@@ -1,18 +1,19 @@
 .container-kunwer {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     position: relative;
-    left: 600px;
+    /* left: 660px; */
     background-color: rgb(254, 240, 218);
     width: 300px;
-
     padding: 20px;
     gap: 5px;
-}
+    margin:auto;
+    }
 
 .item {
     display: flex;
     align-items: center;
+     /* border: 2px solid purple; */
 }
 .divider {
     margin: 0;
@@ -26,7 +27,8 @@ h1 {
 .box {
     display: flex;
     justify-content: center;
-
+    margin: auto;
+     /* border: 4px solid rgb(255, 196, 0); */
 }
 
 #buy {
@@ -69,8 +71,12 @@ h1 {
 }
 
 .search-section {
-    position: relative;
-    left: 400px;
+    /* position: relative; */
+    /* left: 400px; */ 
+    /* padding-left:400px; */
+    display: flex;
+    justify-content: center;
+  
 }
 
 #city-select {
@@ -78,7 +84,8 @@ h1 {
     color: rgb(120, 118, 127);
     margin: -5px;
     width: 150px;
-
+    /* border: 1px solid; */
+   
 }
 
 #site-search {
@@ -103,11 +110,16 @@ h1 {
 }
 
 .check-boxsection {
-    position: relative;
-    left: 393px;
+
+   
     padding: 10px;
-    border: 1px solid;
-    width: 782px;
+    /* border: 1px solid; */
+    
+  
+     margin: auto;
+    display: flex;
+    justify-content: center;
+
 }
 
 #BHK {
@@ -116,29 +128,34 @@ h1 {
 }
 
 #property {
+    
     padding: 8px;
     color: rgb(120, 118, 127);
 }
 
 .main {
     margin-top: 20px;
+    /* border: 2px solid greenyellow; */
 }
 
 .owner-section h4 {
     text-align: center;
     margin-top: 60px;
-}
+    /* border:4px solid ; */
 
+}
 #btn3 {
     padding: 12px;
     background-color: rgb(0, 149, 135);
     color: white;
     border-radius: 4px;
     position: relative;
-    left: 670px;
+    left: 42.5vw; 
     border: none;
     cursor: pointer;
-    width: 180px;
+    width: 15vw;
+    /* margin: auto; */
+
 }
 
 #btn3:hover {
@@ -179,8 +196,9 @@ h1 {
 
 #home {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 60px;
+    justify-content: center;
+    /* margin-top: 60px; */
+
 }
 /* 
 .active {
@@ -191,10 +209,12 @@ h1 {
 #kunwar_container {
     width: 100vw;
     /* margin-top: 50px; */
-     padding-top:50px;
-    border: 1px solid;
+     /* padding-top:50px; */
+    /* border: 1px solid; */
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    top: 50px;
 }
 #kunwar_buy{
     display: block;
@@ -206,3 +226,32 @@ h1 {
     display: none;
 }
 
+@media(min-width:2700px){
+    #container{
+    
+    }   
+     #kunwar_container{
+        max-width: 1620px;
+        margin-left: auto;
+        margin-right: auto;
+       align-items: center;
+    }
+    #nav{
+        max-width: 1620px;
+        margin-left: auto;
+        margin-right: auto;
+        align-self:center;
+    }
+    .navya1_container{
+        max-width: 1620px;
+        margin: auto;
+    }
+    #main_container{
+        max-width: 1620px;
+        margin: auto;
+    }
+    .container_Ashwin{
+        max-width: 1620px;
+        margin: auto;
+    }
+}

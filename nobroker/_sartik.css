@@ -6,7 +6,7 @@ body{
     margin-top: auto;
     margin-bottom: auto;
     background-color: white;
-    width:auto;
+    width:100vw;
     height: 61px;
     padding:5px;
      padding-right: 15px;
@@ -89,8 +89,8 @@ body{
       border-radius: 999rem;
       border: 2px solid;
       position: fixed;
-      right: 50px;
-      bottom: 50px;
+      right: 5vw;
+      bottom: 5vh;
       background-color: rgb(59, 55, 55);
       z-index: 1;
       text-align: center;
@@ -293,6 +293,7 @@ a{
     height: auto;
     border: 1px solid rgb(159, 158, 158);
     box-shadow:  0.01em 0.5em 0.4em .05em #afb1b3;
+    background-color: white;
 }
 #logout>p{
      margin-left: 15px;
@@ -300,10 +301,14 @@ a{
 #logout>p:hover{
     color: rgb(118, 202, 202);
 }
-#container{
+/* #container{
     width: 100vw;
      margin-left: auto;
      margin-right: auto;
+} */
+
+.cursor-sartik{
+    cursor: pointer;
 }
 @media(max-width:990px){
     #right{
@@ -317,18 +322,32 @@ a{
          justify-content: center;
     }
 }
-/* @media(max-width:2000px){
+@media(min-width:2700px){
     #container{
-        max-width:900px; */
-        /* margin-left: auto;
-        margin-right: auto; */
-   /* } */
-   /* #nav{
-     max-width:1320px;
-     margin-left: auto;
-     margin-right: auto;
-    display: flex;
-    justify-content: center;
-} */
-
-/* } */
+    
+    }   
+     #kunwar_container{
+        max-width: 1620px;
+        margin-left: auto;
+        margin-right: auto;
+       align-items: center;
+    }
+    #nav{
+        max-width: 1620px;
+        margin-left: auto;
+        margin-right: auto;
+        align-self:center;
+    }
+    .navya1_container{
+        max-width: 1620px;
+        margin: auto;
+    }
+    #main_container{
+        max-width: 1620px;
+        margin: auto;
+    }
+    .container_Ashwin{
+        max-width: 1620px;
+        margin: auto;
+    }
+}

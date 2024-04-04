@@ -1,7 +1,8 @@
 .container_Ashwin {
     padding: 0px;
     width: 100vw;
-   
+    margin-left: auto;
+    margin-right: auto;
     /* margin: 0px; */
     display: flex;
     flex-wrap: wrap;

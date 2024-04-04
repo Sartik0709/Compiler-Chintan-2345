@@ -14,22 +14,29 @@ body{
 
 .inn {
     display: flex;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     width: 85%;
     gap: 15px;
     font-weight: none;
-   
+   /* border: 1px solid red; */
 
 }
 
-.inn>button,
-<<<<<<< HEAD
-a {
+.inn>button,.inn a {
+            background-color: #E8E8E8;
+            border: none;
+            font-size: 13px;
+            height: 27px;
+            border-radius: 5px;
+            color: #464646;
+            text-decoration: none;
+
+        }
     /* background-color: #E8E8E8; */
-=======
+
 .inn a ,.navya_foot a{
     background-color: #E8E8E8;
->>>>>>> a179a5425052fa48f3eff592f54ddb39772078ff
     border: none;
     font-size: 13px;
     height: 27px;
@@ -75,14 +82,8 @@ a {
 
 .nav_m1 {
     width: 100%;
-
     display: flex;
     flex-wrap: wrap;
-                
-    
-    
-
-    
     background-color: #EDEDED;
     margin-top: -7px;
     margin-bottom: -7px;

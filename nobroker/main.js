@@ -186,3 +186,10 @@ checkButton.addEventListener('click', async () => {
     
 
       // localStorage.removeItem("name");
+
+      //for back to landing page 
+      let logo= document.getElementById( "logo" );
+
+      logo.addEventListener( "click", () => {
+        window.location.href = 'index.html';
+      });
