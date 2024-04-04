@@ -8,12 +8,12 @@ This project is a clone of the homepage of NoBrokerServices(https://www.nobroker
 Frontend | Backend 
 
 ## Deplolyed App
-Frontend:
+Frontend:https://660e695c7751b065e3797062--imaginative-pixie-6e83c9.netlify.app/
 Backend: https://compiler-chintan-2345.onrender.com/
 
 ## Team Name :- Compiler-Chintan-2345
 
-<hr style="border: 1px solid black">
+
 
 ### Team members:-
 
@@ -27,25 +27,13 @@ Backend: https://compiler-chintan-2345.onrender.com/
 
 5- Ashwin Dhanraj Bhagat
 
-<hr style="border: 4px solid black">
+
 
 ## Directory Structure
-my-app/
-├─ backend/
-├─ frontend/
-│  ├─ ...
+![WhatsApp Image 2024-04-04 at 3 04 32 PM](https://github.com/Sartik0709/Compiler-Chintan-2345/assets/107359448/7dc9de6d-6187-49d5-8245-16ef51cf4cd6)
 
 ## Video Walkthrough of the project
 Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
-
-## Video Walkthrough of the codebase
-Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
-##Team Members
-1.Sartik
-2.Navya(ft30_285)
-3.Ashwin
-4.Prakash
-5.Rashi
 
 ## Features
 List out the key features of your application.
@@ -55,17 +43,13 @@ List out the key features of your application.
 -Data Fetching and Display: Use JavaScript to fetch data from APIs or databases and dynamically display it on our website. This could include fetching an, product listings, user profiles, etc.
 -Responsive Design: our website is responsive and works well on various devices and screen sizes is essential to providing a good user experience.
 
-## design decisions or assumptions
-List your design desissions & assumptions
-
 ## Installation & Getting started
 Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
 
-```bash
-npm install my-project
-cd my-project
-npm start
-```
+git clone  
+to check  go live on index.html
+
+
 
 ## Usage
 NoBroker is a Bangalore-based brokerage-free proptech company that provides all sorts of real estate services under a marketplace, which includes buying, renting, packers & movers, and housekeeping.
@@ -85,14 +69,9 @@ Include screenshots as necessary.
 For login use  the following credentials:
 -Phone no: 1234576789;
 -Password: passsword;
+
 ## APIs Used
-If your application relies on external APIs, document them and include any necessary links or references.
-
-## API Endpoints
-In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.
-GET /api/items - retrieve all items
-POST /api/items - create a new item
-
+https://compiler-chintan-2345.onrender.com/
 
 ## Technology Stack
 List and provide a brief overview of the technologies used in the project.
@@ -101,3 +80,4 @@ List and provide a brief overview of the technologies used in the project.
 - CSS
 - JavaScript
 - JSON Server
+
