@@ -8,9 +8,8 @@ This project is a clone of the homepage of NoBrokerServices(https://www.nobroker
 Frontend | Backend 
 
 ## Deplolyed App
-Frontend: https://deployed-site.whatever
-Backend: https://deployed-site.whatever
-Database: https://deployed-site.whatever
+Frontend:
+Backend: https://compiler-chintan-2345.onrender.com/
 
 ## Team Name :- Compiler-Chintan-2345
 
