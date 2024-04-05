@@ -30,7 +30,9 @@ Backend: https://compiler-chintan-2345.onrender.com/
 
 
 ## Directory Structure
-![WhatsApp Image 2024-04-04 at 3 04 32 PM](https://github.com/Sartik0709/Compiler-Chintan-2345/assets/107359448/7dc9de6d-6187-49d5-8245-16ef51cf4cd6)
+![Screenshot 2024-04-05 221337](https://github.com/Sartik0709/Compiler-Chintan-2345/assets/107359448/7667f959-0284-4c22-8ad5-c26b9364e724)
+
+
 
 ## Video Walkthrough of the project
 https://drive.google.com/file/d/1m9GIO6rLrc1WDwpYA6QVSxjX8qDbkFS6/view?usp=drivesdk
